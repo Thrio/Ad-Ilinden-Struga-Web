@@ -6,7 +6,7 @@ Committed. Updated by the agent after every stage and band; `node tools/check-pr
 
 | Stage | Approved by | Date | Note |
 |---|---|---|---|
-| kickoff (plan summary) | | | |
+| kickoff (plan summary) | user | 2026-11-04 | ok — defaults accepted |
 | refs (reference pick + Blueprint table) | | | |
 | design (palette, type, sample band) | | | |
 | qa (BLOCKER/HIGH list cleared) | | | |
@@ -26,4 +26,4 @@ Overnight and long runs: one line per step — time · step · result · next. D
 
 | Time | Step | Result | Next |
 |---|---|---|---|
-| | | | |
+| 2026-11-04 | kickoff | Plan confirmed from user notes. Kosova Wine brief files not used. | /refs |

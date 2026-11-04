@@ -1,10 +1,10 @@
-# plan.md — [REQUIRED: CLIENT NAME] · cms
+# plan.md — AD Ilinden Struga · cms
 
 | | |
 |---|---|
 | Template | **3.3** — client facts, decisions and the clone index (process lives in `.cursor/`) |
-| Updated | 2026-10-27 |
-| Document status | ⬜ Draft → ⬜ Confirmed → ⬜ In build → ⬜ Pre-ship → ⬜ Launched |
+| Updated | 2026-11-04 |
+| Document status | ✅ Draft → ✅ Confirmed → ⬜ In build → ⬜ Pre-ship → ⬜ Launched |
 
 `[REQUIRED]` blocks the next stage. `(default)` = keep unless overridden. `⚠️ CONFIRM WITH CLIENT` = assumed. Missing facts → `[[PENDING: what is needed]]`, never invented.
 
@@ -15,14 +15,14 @@ Commands: `/kickoff` → `/refs` → `/design` → `/scaffold` → `/build` → 
 | Field | Value |
 |---|---|
 | Layer | cms |
-| Client | [REQUIRED] |
-| Industry (slug in `references/industries/`) | [REQUIRED] |
-| Primary goal (one action) | [REQUIRED] |
-| Target audience | [REQUIRED] |
-| Languages (ISO codes) · main | [REQUIRED: e.g. sq, en · main sq] |
-| Animation level | [REQUIRED: Low / Medium / High — budget in Motion contract] |
-| One-line summary | [REQUIRED] |
-| Characteristic thing this design should express | [REQUIRED] |
+| Client | AD Ilinden Struga |
+| Industry (slug in `references/industries/`) | construction-industrial |
+| Primary goal (one action) | Get potential clients to make contact |
+| Target audience | Private clients and businesses considering construction work |
+| Languages (ISO codes) · main | mk, en · main mk |
+| Animation level | Medium |
+| One-line summary | Premium corporate site for the Struga construction company AD Ilinden Struga: present the firm and its work, and get potential clients to make contact. |
+| Characteristic thing this design should express | Trust and precision — a modern, professional construction company. No shop layout, no clip-art mark, no invented statistics. |
 
 ## Conversion
 
@@ -30,30 +30,41 @@ At least one channel on. List only the channels that are on. A channel without i
 
 | Channel | Detail |
 |---|---|
-| [REQUIRED: phone / WhatsApp (own number or same as phone) / email / booking URL / form / store visit] | |
+| phone | +389 46 781 902 |
+| email | ilindenad@gmail.com |
+| form | To ilindenad@gmail.com. Never Sanity. |
+
+WhatsApp, booking, and store visit are off until a number, URL, or street address is supplied. Social link (not a conversion channel): Facebook https://www.facebook.com/adilindenstruga/ — other networks stay hidden. Do not show the follower count or last-post date.
 
 | Field | Value |
 |---|---|
-| Primary CTA label | [REQUIRED — sentence case] |
-| Form destination | [REQUIRED if form — never Sanity — else N/A] |
+| Primary CTA label | Contact us |
+| Form destination | ilindenad@gmail.com via Cloudflare `send_email` |
 
 ## Regulated products and business customers
 
 | Field | Value |
 |---|---|
-| Regulated products | [REQUIRED: none / alcohol / tobacco or vapes / medicines or supplements / other] |
-| Age gate · legal age | [REQUIRED if regulated: yes/no · 18] |
-| Delivery countries · regulated allowed? | [REQUIRED if delivery: e.g. XK yes · AL [[PENDING: client confirms]]] |
-| Business customers (B2B) | [REQUIRED: no / same prices / separate prices — shown how: on request / login / public · minimum order] |
+| Regulated products | none |
+| Age gate · legal age | N/A |
+| Delivery countries · regulated allowed? | N/A — no shop and no delivery |
+| Business customers (B2B) | No shop and no public prices. Enquiries from private clients and businesses. |
 
 ## Sitemap & Routes
 
 Layer defaults: landing = Home, Privacy, 404 · multipage/cms = chosen pages + Contact + Privacy + 404 · shop = Home, Shop (grid), Product, Cart, Checkout, Contact, Shipping & returns, Privacy, Terms, 404. Status: `live` · `hidden` · `deferred`.
 
+No service names, project entries, or history are invented. Empty sections stay pending.
+
 | Page | Type | Route | Status | Content source | Visitor action |
 |---|---|---|---|---|---|
-| [REQUIRED: Home] | Static | `/` | [REQUIRED] | [`src/content/home.ts` / Sanity `page`] | [REQUIRED] |
-| [REQUIRED: add rows] | | | | | |
+| Home | Sanity page | `/` | live | Sanity `page` | Make contact |
+| About | Sanity page | `/about` | live | Sanity `page` | Read who the company is — copy [[PENDING: about copy]] |
+| Services | Sanity page | `/services` | live | Sanity `page` | Read services — list [[PENDING: confirmed services]] |
+| Projects | Collection index | `/projects` | live | Sanity `project` | Browse work — entries [[PENDING: confirmed projects]] |
+| Project | Collection detail | `/projects/[slug]` | live | Sanity `project` | Read one confirmed project |
+| Contact | Sanity page | `/contact` | live | Sanity `page` | Call, email, or send the form |
+| Privacy | Sanity page | `/privacy` | live | Sanity `page` | Read the policy — text [[PENDING: privacy policy]] |
 | 404 | code-only | — | live | — | Match direction |
 
 ## Agreed structure
@@ -62,11 +73,17 @@ The page layouts agreed with the client. The reference restyles inside them but 
 
 | Page | Agreed archetype (e.g. "product grid, 3 col desktop / 2 col mobile") | Confirmed at /design |
 |---|---|---|
-| [REQUIRED] | | ⬜ |
+| Home | Corporate hero, company intro, selected work, contact close | ⬜ |
+| About | Company profile. No timeline until the client supplies dates. | ⬜ |
+| Services | Service list. No items until the client names them. | ⬜ |
+| Projects | Project grid, 3 col desktop / 1 col mobile. Card opens the project. | ⬜ |
+| Project | One project: summary and gallery. Fields only where the client supplied them. | ⬜ |
+| Contact | Phone, email, Facebook link, and enquiry form. No map embed. | ⬜ |
+| Privacy | Legal prose page | ⬜ |
 
 ## Collection index UX
 
-Only if the sitemap has collections, else N/A: index layout · filters/sort · pagination · empty-state copy · card → detail fields — [REQUIRED if collections]
+Projects index: 3 col desktop / 1 col mobile · no filters or sort until the client supplies real categories · no pagination until there are more than 12 confirmed projects · empty state stays empty (no sample projects) and the nav item is hidden when zero projects are published · card shows only fields the client supplied (image, title, and location or year when provided).
 
 ## Content model
 
@@ -74,14 +91,18 @@ landing / multipage: typed modules in `src/content/*.ts` (`site.ts` = name, NAP,
 
 | Type / module | Purpose | Key fields |
 |---|---|---|
-| [REQUIRED] | | |
+| `siteSettings` | Name, NAP, channels, nav, default SEO | name AD Ilinden Struga · phone +389 46 781 902 · email ilindenad@gmail.com · city Struga · country North Macedonia · street [[PENDING: street address]] · hours [[PENDING: opening hours]] · Facebook URL · logo · nav · default SEO |
+| `page` | Home, About, Services, Contact, Privacy | title, slug, `sections[]`, SEO |
+| `page.sections[]` | One block per Blueprint band archetype | heading, body, media, CTA — block list fixed at `/design` after the reference pick |
+| `project` | Confirmed work only. No seed projects. | title, slug, summary, gallery, location, year — omit any field the client did not supply |
+| `seo` | Shared meta | title, description, og image |
 
 ## Design System
 
 Expanded by `/design` into `DESIGN.md` + `design/tokens.css` (`@theme`; copied into `src/app/globals.css` at `/scaffold`). A logo gives palette + mark only.
 
-- Brand / logo on hand: [REQUIRED] · Style (3–5 adjectives): [REQUIRED or TBD after /refs] · Must not look like: [— or answer]
-- Section rhythm: [REQUIRED: Alternating (default) / Uniform]
+- Brand / logo on hand: none usable. The current mark is outdated clip-art and is not the site logo. Need an SVG or transparent PNG. · Style: premium, modern, professional, trustworthy · Must not look like: a shop, a clip-art brochure, or a page with invented project stats
+- Section rhythm: Alternating (default)
 - Tokens: primary/accent · surface/text/border · display + body fonts (max 2; Inter/Poppins/Roboto only as a logged clone exception) · radius/shadow — [TBD until /design]
 
 ### Asset brief
@@ -141,13 +162,13 @@ Missing copy renders as `<PendingText lines={n}>` (n from the capture's copy bud
 
 | Key | Locked copy |
 |---|---|
-| `brand.name` | [REQUIRED] |
-| `nav.primaryCta` | [REQUIRED — matches Conversion] |
-| `home.hero.headline` · `.subline` · `.cta` | [REQUIRED or [[PENDING]]] |
-| `footer.tagline` | [REQUIRED or —] |
-| `contact.form.submit` | [REQUIRED if form / N/A] |
-| `404.title` | [REQUIRED or [[PENDING]]] |
-| `ageGate.question` · `.yes` · `.no` · `.blocked` | [REQUIRED if age gate / N/A] |
+| `brand.name` | AD Ilinden Struga |
+| `nav.primaryCta` | Contact us |
+| `home.hero.headline` · `.subline` · `.cta` | [[PENDING: client-approved hero copy]] · [[PENDING: client-approved hero subline]] · Contact us |
+| `footer.tagline` | [[PENDING: footer tagline]] |
+| `contact.form.submit` | Send message |
+| `404.title` | [[PENDING: 404 title in the main language]] |
+| `ageGate.question` · `.yes` · `.no` · `.blocked` | N/A |
 
 ## Motion contract
 
@@ -155,6 +176,7 @@ Budget by Animation level: `.cursor/rules/design.mdc` → Motion budget (single 
 
 | Field | Value |
 |---|---|
+| Animation level | Medium |
 | Reference motion stack observed | [REQUIRED after pick: none / CSS / IntersectionObserver / GSAP / Lenis — note only] |
 | Default in-view entrance | **Scroll appear** (below) — change only on the user's explicit ask |
 | Reduced motion | Always: final state at once, layout intact |
@@ -171,9 +193,9 @@ Status: Pending / Requested / Received / Entered / Approved
 
 | Asset | Who | Status |
 |---|---|---|
-| Logo (SVG or transparent PNG) | Client | Pending |
-| NAP, hours, social, WhatsApp | Client | Pending |
-| Home + page copy | [REQUIRED] | Pending |
+| Logo (SVG or transparent PNG) | Client | Pending — do not use the clip-art mark |
+| NAP, hours, social, WhatsApp | Client | Pending — phone, email, city, country, and Facebook URL are in. Street, hours, and WhatsApp are not. |
+| Home + page copy | Client | Pending |
 | Photos (replace stand-ins; product photos plain or transparent background) | Client | Pending |
 | Legal (Privacy; Terms for shop) | Client / lawyer | Pending |
 | Image + font licenses | Client / Me | Pending |
@@ -184,8 +206,8 @@ Sticky header + mobile menu always on. Form / call / booking = Conversion.
 
 | Feature | On? | Notes |
 |---|---|---|
-| Multi-level nav · collection pagination · anchors | [REQUIRED: ✅/❌ each] | |
-| Age gate | from Regulated products | |
+| Multi-level nav · collection pagination · anchors | ❌ · ❌ · ❌ | Flat nav. Projects show all until more than 12 confirmed entries. |
+| Age gate | ❌ | Not regulated |
 | Search · draft preview | ❌ default | preview needs the OpenNext path |
 | Cookie banner | ❌ unless cookie tracking is added | Cloudflare Web Analytics is cookieless |
 
@@ -193,11 +215,11 @@ Sticky header + mobile menu always on. Form / call / booking = Conversion.
 
 | Field | Value |
 |---|---|
-| Domain · GitHub repo | [REQUIRED] |
-| Host (Cloudflare) · CMS (Sanity, cms/shop only) | [REQUIRED: live / deferred · CMS: N/A for landing/multipage] |
-| Sanity project ID · live URL | [REQUIRED when created / live] |
-| Form backend | [REQUIRED or N/A — default Cloudflare `send_email` binding] |
-| Image path | [landing/multipage: `images.unoptimized` + sized files · cms: Sanity CDN loader] |
+| Domain · GitHub repo | [[PENDING: domain]] · [[PENDING: GitHub remote]] |
+| Host (Cloudflare) · CMS (Sanity, cms/shop only) | Cloudflare, not deployed yet · Sanity CMS |
+| Sanity project ID · live URL | [[PENDING: Sanity project id when created]] · [[PENDING: live URL]] |
+| Form backend | Cloudflare `send_email` → ilindenad@gmail.com |
+| Image path | Sanity CDN loader |
 | Analytics | (default: Cloudflare Web Analytics) |
 | Reference media in production | ❌ never — only with a written license from the rights holder, logged here (client acceptance is not a license) |
 | Lighthouse (prod, mobile, median of 3) | [after /deploy] |
@@ -208,7 +230,9 @@ Every choice made without a lock: clone pick, competitor check, clone exceptions
 
 | Date | Decision | Why | Who |
 |---|---|---|---|
-| | | | |
+| 2026-11-04 | Ignore `brief/client-questions.docx` and `brief/client-card.md`. Do not read, modify, or delete them. They are Kosova Wine and are not input for this project. Layer is cms for a construction company (AD Ilinden Struga). Facts come only from what the user provides in chat. Do not modify Web Brain or Thrio OS. | User instruction this chat | user |
+| 2026-11-04 | Kickoff draft uses only the user's AD Ilinden notes. Research is context, not site copy: zk.mk and club200.mk listing; a Facebook-linked site did not load on 2026-11-03; Google Maps shows no website; Facebook https://www.facebook.com/adilindenstruga/ (417 followers, last visible post 2023-03-07); current logo is outdated clip-art. Do not publish rankings, history, services, projects, certifications, or achievements until the client confirms the wording. | User notes | user |
+| 2026-11-04 | Plan confirmed. Languages mk, en (main mk). Animation Medium. Pages: Home, About, Services, Projects, Contact, Privacy, 404. CTA "Contact us"; form to ilindenad@gmail.com; WhatsApp off. Audience: private clients and businesses; no public prices. Street, hours, domain, and logo stay pending. Logo redesign and social-account management stay out of scope. | User replied ok | user |
 
 ## Pre-ship gate
 
@@ -234,8 +258,10 @@ The client gets a **new repo** from `node tools/handoff-export.mjs <dir>`: the s
 
 | Asset | Owner after launch | Dev access kept? |
 |---|---|---|
-| Domain · Cloudflare · GitHub · Sanity · form/analytics | [REQUIRED] | [REQUIRED] |
+| Domain · Cloudflare · GitHub · Sanity · form/analytics | [[PENDING: owner after launch]] | [[PENDING: whether dev access stays]] |
 
 ## Out of scope
 
 Unless you expand it: types beyond the Content model · languages beyond Overview · migrating an existing site · search (unless Features) · pro copy/photo/logo · SEO after launch · dark mode · paid typefaces (unless bought).
+
+Also out of this website build unless you expand it: ecommerce (cart, checkout, catalogue) · publishing unverified history, services, projects, certifications, or the zk.mk / club200.mk listing · designing a new logo · opening or running social accounts. The site links the verified Facebook page and uses a logo file you supply.
