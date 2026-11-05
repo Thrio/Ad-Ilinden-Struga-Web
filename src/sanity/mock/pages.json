@@ -1,0 +1,134 @@
+[
+  {
+    "language": "mk",
+    "slug": "home",
+    "path": "",
+    "title": "AD Ilinden Struga",
+    "seo": {
+      "title": "AD Ilinden Struga",
+      "description": "AD Ilinden Struga is a construction company in Struga, North Macedonia."
+    },
+    "sections": []
+  },
+  {
+    "language": "en",
+    "slug": "home",
+    "path": "",
+    "title": "AD Ilinden Struga",
+    "seo": {
+      "title": "AD Ilinden Struga",
+      "description": "AD Ilinden Struga is a construction company in Struga, North Macedonia."
+    },
+    "sections": []
+  },
+  {
+    "language": "mk",
+    "slug": "about",
+    "path": "about",
+    "title": "About",
+    "seo": {
+      "title": "About — AD Ilinden Struga",
+      "description": "About AD Ilinden Struga, a construction company in Struga, North Macedonia."
+    },
+    "sections": []
+  },
+  {
+    "language": "en",
+    "slug": "about",
+    "path": "about",
+    "title": "About",
+    "seo": {
+      "title": "About — AD Ilinden Struga",
+      "description": "About AD Ilinden Struga, a construction company in Struga, North Macedonia."
+    },
+    "sections": []
+  },
+  {
+    "language": "mk",
+    "slug": "services",
+    "path": "services",
+    "title": "Services",
+    "seo": {
+      "title": "Services — AD Ilinden Struga",
+      "description": "Services from AD Ilinden Struga in Struga, North Macedonia."
+    },
+    "sections": []
+  },
+  {
+    "language": "en",
+    "slug": "services",
+    "path": "services",
+    "title": "Services",
+    "seo": {
+      "title": "Services — AD Ilinden Struga",
+      "description": "Services from AD Ilinden Struga in Struga, North Macedonia."
+    },
+    "sections": []
+  },
+  {
+    "language": "mk",
+    "slug": "projects",
+    "path": "projects",
+    "title": "Projects",
+    "seo": {
+      "title": "Projects — AD Ilinden Struga",
+      "description": "Work by AD Ilinden Struga in Struga, North Macedonia."
+    },
+    "sections": []
+  },
+  {
+    "language": "en",
+    "slug": "projects",
+    "path": "projects",
+    "title": "Projects",
+    "seo": {
+      "title": "Projects — AD Ilinden Struga",
+      "description": "Work by AD Ilinden Struga in Struga, North Macedonia."
+    },
+    "sections": []
+  },
+  {
+    "language": "mk",
+    "slug": "contact",
+    "path": "contact",
+    "title": "Contact",
+    "seo": {
+      "title": "Contact — AD Ilinden Struga",
+      "description": "Call, email, or write to AD Ilinden Struga in Struga, North Macedonia."
+    },
+    "sections": []
+  },
+  {
+    "language": "en",
+    "slug": "contact",
+    "path": "contact",
+    "title": "Contact",
+    "seo": {
+      "title": "Contact — AD Ilinden Struga",
+      "description": "Call, email, or write to AD Ilinden Struga in Struga, North Macedonia."
+    },
+    "sections": []
+  },
+  {
+    "language": "mk",
+    "slug": "privacy",
+    "path": "privacy",
+    "title": "Privacy",
+    "seo": {
+      "title": "Privacy — AD Ilinden Struga",
+      "description": "Privacy policy for AD Ilinden Struga."
+    },
+    "sections": []
+  },
+  {
+    "language": "en",
+    "slug": "privacy",
+    "path": "privacy",
+    "title": "Privacy",
+    "seo": {
+      "title": "Privacy — AD Ilinden Struga",
+      "description": "Privacy policy for AD Ilinden Struga."
+    },
+    "sections": []
+  }
+]

@@ -298,6 +298,8 @@ Every choice made without a lock: clone pick, competitor check, clone exceptions
 | 2026-11-05 | Direction Limestone proposed. Iron field and limestone ground, not the reference blue and peach. League Spartan and Schibsted Grotesk replace Geom Graphic and Arialnova. Azeret Mono dropped. Approval of palette, type, and the home 10 sample is still open. | Design, awaiting user ok | agent |
 | 2026-11-05 | Limestone stays dominant. Dark brown and iron are accents for type, the contact pill, and details, about 10% of the page. Empty photographs are an off-white plate, not a brown field. Real construction photos carry the large visual. | User refinement | user |
 | 2026-11-05 | Palette, type, and the home 10 sample are approved. Direction remains Limestone. | User replied ok | user |
+| 2026-11-05 | Scaffold uses Next 16.4.5, which is above the security floor 16.4.1. metadataBase falls back to https://example.com until NEXT_PUBLIC_SITE_URL is set. The approved fonts have no Cyrillic subset, so Macedonian text will use the fallback face until a Cyrillic pair is approved. The contact form stays disabled until the Turnstile site key exists. | Scaffold | agent |
+| 2026-11-05 | Pre-ship HIGH: our built site has not been captured yet, so copy-check has nothing to compare. That capture waits until the pages exist. | preship-scrub | agent |
 
 ## Pre-ship gate
 

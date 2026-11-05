@@ -1,0 +1,142 @@
+/* One token source for AD Ilinden Struga. /scaffold copies this file into src/app/globals.css.
+   :root is the same list, so the design sample can read it before Tailwind compiles @theme. */
+
+:root {
+  --font-display: "League Spartan", sans-serif;
+  --font-body: "Schibsted Grotesk", sans-serif;
+
+  --color-surface: oklch(0.965 0.014 95);
+  --color-surface-raised: oklch(0.988 0.008 95);
+  --color-ink: oklch(0.28 0.025 65);
+  --color-muted: oklch(0.39 0.028 65);
+  --color-field: oklch(0.34 0.055 55);
+  --color-on-field: oklch(0.965 0.014 95);
+  --color-media: oklch(0.94 0.012 95);
+  --color-on-media: oklch(0.28 0.025 65);
+  --color-on-photo: oklch(0.97 0.012 95);
+  --color-line: oklch(0.28 0.025 65 / 0.16);
+  --color-focus: oklch(0.34 0.055 55);
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-body: 1rem;
+  --text-lead: 1.25rem;
+  --text-title: 1.5rem;
+  --text-display-sm: 2.5rem;
+  --text-display-md: 3rem;
+  --text-display: 4rem;
+  --text-display-lg: 4.875rem;
+  --leading-body: 1.5;
+  --leading-display: 1.2;
+  --tracking-display: 0;
+  --tracking-label: 0.24em;
+  --measure: 75ch;
+
+  --space-4: 0.25rem;
+  --space-8: 0.5rem;
+  --space-12: 0.75rem;
+  --space-16: 1rem;
+  --space-20: 1.25rem;
+  --space-24: 1.5rem;
+  --space-32: 2rem;
+  --space-40: 2.5rem;
+  --space-48: 3rem;
+  --space-56: 3.5rem;
+  --space-64: 4rem;
+  --space-80: 5rem;
+  --gutter: var(--space-24);
+  --gutter-narrow: var(--space-16);
+  --content-max: 85rem;
+  --section-space: var(--space-64);
+  --section-space-tight: var(--space-40);
+  --inset-close-start: 30rem;
+  --inset-close-end: 15rem;
+  --inset-close-start-narrow: var(--space-80);
+  --radius-tight: 0.25rem;
+  --radius-photo: 0.5rem;
+  --radius-control: 0.625rem;
+  --radius-pill: 999px;
+  --shadow-card: none;
+
+  --header-height: 104px;
+  --header-height-narrow: 59px;
+  --hero-min-height: 100svh;
+
+  --motion-reveal-distance: 16px;
+  --motion-reveal-duration: 0.85s;
+  --motion-reveal-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --motion-reveal-stagger: 0.07s;
+  --motion-ui-duration: 0.3s;
+  --motion-ui-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --motion-menu-duration: 0.6s;
+}
+
+@theme {
+  --font-display: "League Spartan", sans-serif;
+  --font-body: "Schibsted Grotesk", sans-serif;
+
+  --color-surface: oklch(0.965 0.014 95);
+  --color-surface-raised: oklch(0.988 0.008 95);
+  --color-ink: oklch(0.28 0.025 65);
+  --color-muted: oklch(0.39 0.028 65);
+  --color-field: oklch(0.34 0.055 55);
+  --color-on-field: oklch(0.965 0.014 95);
+  --color-media: oklch(0.94 0.012 95);
+  --color-on-media: oklch(0.28 0.025 65);
+  --color-on-photo: oklch(0.97 0.012 95);
+  --color-line: oklch(0.28 0.025 65 / 0.16);
+  --color-focus: oklch(0.34 0.055 55);
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-body: 1rem;
+  --text-lead: 1.25rem;
+  --text-title: 1.5rem;
+  --text-display-sm: 2.5rem;
+  --text-display-md: 3rem;
+  --text-display: 4rem;
+  --text-display-lg: 4.875rem;
+  --leading-body: 1.5;
+  --leading-display: 1.2;
+  --tracking-display: 0;
+  --tracking-label: 0.24em;
+  --measure: 75ch;
+
+  --space-4: 0.25rem;
+  --space-8: 0.5rem;
+  --space-12: 0.75rem;
+  --space-16: 1rem;
+  --space-20: 1.25rem;
+  --space-24: 1.5rem;
+  --space-32: 2rem;
+  --space-40: 2.5rem;
+  --space-48: 3rem;
+  --space-56: 3.5rem;
+  --space-64: 4rem;
+  --space-80: 5rem;
+  --gutter: var(--space-24);
+  --gutter-narrow: var(--space-16);
+  --content-max: 85rem;
+  --section-space: var(--space-64);
+  --section-space-tight: var(--space-40);
+  --inset-close-start: 30rem;
+  --inset-close-end: 15rem;
+  --inset-close-start-narrow: var(--space-80);
+  --radius-tight: 0.25rem;
+  --radius-photo: 0.5rem;
+  --radius-control: 0.625rem;
+  --radius-pill: 999px;
+  --shadow-card: none;
+
+  --header-height: 104px;
+  --header-height-narrow: 59px;
+  --hero-min-height: 100svh;
+
+  --motion-reveal-distance: 16px;
+  --motion-reveal-duration: 0.85s;
+  --motion-reveal-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --motion-reveal-stagger: 0.07s;
+  --motion-ui-duration: 0.3s;
+  --motion-ui-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --motion-menu-duration: 0.6s;
+}

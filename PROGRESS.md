@@ -34,3 +34,4 @@ Overnight and long runs: one line per step — time · step · result · next. D
 | 2026-11-05 | design | Tokens, DESIGN.md, and the home 10 sample drafted. Agreed structure confirmed. Palette and type not approved yet. | wait for ok |
 | 2026-11-05 | design | Limestone kept dominant. Brown and iron limited to type, the pill, and details. Sample updated. | wait for ok |
 | 2026-11-05 | design | User approved the palette, type, and home 10 sample. | /scaffold |
+| 2026-11-05 | scaffold | Empty shell builds. Next 16.4.5. Mock Sanity content. Preship has no BLOCKER. | /build home band 1 |
