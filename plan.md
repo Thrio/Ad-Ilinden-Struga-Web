@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | Template | **3.3** — client facts, decisions and the clone index (process lives in `.cursor/`) |
-| Updated | 2026-11-04 |
+| Updated | 2026-11-05 |
 | Document status | ✅ Draft → ✅ Confirmed → ⬜ In build → ⬜ Pre-ship → ⬜ Launched |
 
 `[REQUIRED]` blocks the next stage. `(default)` = keep unless overridden. `⚠️ CONFIRM WITH CLIENT` = assumed. Missing facts → `[[PENDING: what is needed]]`, never invented.
@@ -73,17 +73,17 @@ The page layouts agreed with the client. The reference restyles inside them but 
 
 | Page | Agreed archetype (e.g. "product grid, 3 col desktop / 2 col mobile") | Confirmed at /design |
 |---|---|---|
-| Home | Corporate hero, company intro, selected work, contact close | ⬜ |
-| About | Company profile. No timeline until the client supplies dates. | ⬜ |
-| Services | Service list. No items until the client names them. | ⬜ |
-| Projects | Project grid, 3 col desktop / 1 col mobile. Card opens the project. | ⬜ |
-| Project | One project: summary and gallery. Fields only where the client supplied them. | ⬜ |
-| Contact | Phone, email, Facebook link, and enquiry form. No map embed. | ⬜ |
-| Privacy | Legal prose page | ⬜ |
+| Home | Still full-bleed hero (not the reference scrub), intro split, capability accordions, pinned image story, selected-work carousel, contact close. Logo row, statistics, quotes, and careers dropped. | ✅ |
+| About | Still photo hero, story split, pinned numbered cards, contact close. Values, team grid, and careers dropped until the client supplies them. | ✅ |
+| Services | Still photo hero, numbered service steps, three text cards. No service names until the client supplies them. | ✅ |
+| Projects | Still photo hero, featured carousel, then a one-column list with a thumbnail. Not a 3-column grid. | ✅ |
+| Project | No reference page captured. Summary and gallery, only fields the client supplies. | ✅ |
+| Contact | Photo with an overlapping enquiry card, then phone and email rows. No map embed. Street address stays pending. | ✅ |
+| Privacy | Legal prose page. No reference page. | ✅ |
 
 ## Collection index UX
 
-Projects index: 3 col desktop / 1 col mobile · no filters or sort until the client supplies real categories · no pagination until there are more than 12 confirmed projects · empty state stays empty (no sample projects) and the nav item is hidden when zero projects are published · card shows only fields the client supplied (image, title, and location or year when provided).
+Projects index follows the reference: a featured carousel, then one row per project (title, place, category, thumbnail) · filters stay hidden until the client supplies real categories · pagination only when confirmed projects exceed one page · empty state stays empty and the nav item is hidden when zero projects are published · a row opens the project · no sample projects.
 
 ## Content model
 
@@ -93,7 +93,7 @@ landing / multipage: typed modules in `src/content/*.ts` (`site.ts` = name, NAP,
 |---|---|---|
 | `siteSettings` | Name, NAP, channels, nav, default SEO | name AD Ilinden Struga · phone +389 46 781 902 · email ilindenad@gmail.com · city Struga · country North Macedonia · street [[PENDING: street address]] · hours [[PENDING: opening hours]] · Facebook URL · logo · nav · default SEO |
 | `page` | Home, About, Services, Contact, Privacy | title, slug, `sections[]`, SEO |
-| `page.sections[]` | One block per Blueprint band archetype | heading, body, media, CTA — block list fixed at `/design` after the reference pick |
+| `page.sections[]` | One block per Blueprint band archetype | heading, body, media, CTA. Kept blocks: hero, intro, capabilities, scope story, story (figures omitted), selected work, close, principles, service steps, three cards, featured carousel, project list, enquiry card, direct contact. Logo row, quotes, careers, values, and team stay dropped |
 | `project` | Confirmed work only. No seed projects. | title, slug, summary, gallery, location, year — omit any field the client did not supply |
 | `seo` | Shared meta | title, description, og image |
 
@@ -103,16 +103,16 @@ Expanded by `/design` into `DESIGN.md` + `design/tokens.css` (`@theme`; copied i
 
 - Brand / logo on hand: none usable. The current mark is outdated clip-art and is not the site logo. Need an SVG or transparent PNG. · Style: premium, modern, professional, trustworthy · Must not look like: a shop, a clip-art brochure, or a page with invented project stats
 - Section rhythm: Alternating (default)
-- Tokens: primary/accent · surface/text/border · display + body fonts (max 2; Inter/Poppins/Roboto only as a logged clone exception) · radius/shadow — [TBD until /design]
+- Tokens: limestone ground dominant, off-white photo plates, iron and dark brown as accents only (~70/20/10) · League Spartan + Schibsted Grotesk (OFL stand-ins, max 2) · pill radius, photo 8px, no shadow — `design/tokens.css`. Palette, type, and the home 10 sample approved 2026-11-05
 
 ### Asset brief
 
 Single source; `DESIGN.md` explains, never lists. Reference media = internal stand-ins, replaced before any client preview. Missing client photos never block: empty `ImageSlot` + `[[PENDING: photo — <slot>]]`.
 
-- Clone target (name + URL): [REQUIRED after pick]
-- Reference grammar kept: [REQUIRED after pick / none]
-- Stand-ins (role → `public/_peer/` file → source URL): [after pick / none]
-- Icons / cutouts / shapes / illustrations: [REQUIRED after pick]
+- Clone target (name + URL): METRIC — https://www.metriccivil.ca/
+- Reference grammar kept: warm off-white ground, full-bleed photo heroes, oversized uppercase headlines, one solid pill button, rounded photos, pinned image stories, a work carousel, a project list with thumbnails. Their name, text, photos, logos, people, and colours are not our brand.
+- Stand-ins (role → `public/_peer/` file → source URL): none. Their images were not downloaded.
+- Icons / cutouts / shapes / illustrations: Lucide for the phone, place, and arrow icons. No cutouts. The home hero's line drawing is not reused.
 
 ### Clone exceptions log
 
@@ -120,7 +120,7 @@ A hard lock that yields to a measured reference value. Log here **and** in `DESI
 
 | Lock | Reference measured value | Band / page | Date |
 |---|---|---|---|
-| | | | |
+| Home hero scrub is not rebuilt | The reference clips a full-bleed photograph into a matching line drawing while the page scrolls, with a background video and a play control | home 1 | 2026-11-05 |
 
 ### Clone Blueprint
 
@@ -128,7 +128,32 @@ A hard lock that yields to a measured reference value. Log here **and** in `DESI
 
 | Page | # | Band | Archetype | Element map | Type roles | CTA anatomy | Interaction | Motion | Measures (375/1440) | Screenshots | Client content / dropped | Do not invent |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| home | 1 | [REQUIRED after pick] | | L/R/float/bg · layered media | | | scroll / click / hover / time / static | none / reveal / sticky / scrub / hover / load | `research/peers/…/measures/home/band-1.md` | `research/peers/…` | | |
+| home | 1 | Hero | Full-bleed media, centered headline | bg photo · centered type · small media control | Display uppercase, centered. Subline under it. | none in the hero | scroll | reference scrub/parallax — not rebuilt | `research/peers/metric/measures/home/band-1.md` | `research/peers/metric/pages/home/band-1-*.png` | pending hero copy · still photo later | Do not rebuild the photo-to-line-drawing scrub, the background video, or the play control |
+| home | 2 | Intro | Split headline and two photos | L headline · R paragraph · two photos below | Display uppercase left. Body 20px right. | none | scroll | reveal | `research/peers/metric/measures/home/band-2.md` | `research/peers/metric/pages/home/band-2-*.png` | pending copy and photos | Do not use their headline or photos |
+| home | 3 | Logo row | Centered label and a logo strip | centered label · row of marks | Small uppercase label | none | static | none | `research/peers/metric/measures/home/band-3.md` | `research/peers/metric/pages/home/band-3-*.png` | dropped — no client logos | Do not use their client marks |
+| home | 4 | Capabilities | Photo with four expanding labels | bg photo · type bottom left · four pills | Display on the photo. Pill labels uppercase. | pill expands on click | scroll + click | reveal | `research/peers/metric/measures/home/band-4.md` | `research/peers/metric/pages/home/band-4-*.png` | labels pending until services are named | Do not invent the four labels |
+| home | 5 | Scope story | Pinned images beside a step | heading · images travel · step text | Display heading. Step title and a short body. | none | scroll | sticky/pin | `research/peers/metric/measures/home/band-5.md` | `research/peers/metric/states/home/sweep-1440-014.jpg` | step names pending | Do not invent service steps. On 375 the band is short, not the tall pin |
+| home | 6 | Story and figures | Split headline, photo, four figures | L/R headlines · photo · figure row | Display split around the photo. Figure plus caption. | text button, dropped with careers | scroll | small scrub | `research/peers/metric/measures/home/band-6.md` | `research/peers/metric/pages/home/band-6-1440.png` | figures dropped · story copy pending | Do not invent counts, years, or rates |
+| home | 7 | Selected work | Carousel, center card open | heading · side images · center card | Display heading. Card title, place, short body. | pill "See all" and arrow controls · text link on the card | scroll + click | reveal | `research/peers/metric/measures/home/band-7.md` | `research/peers/metric/pages/home/band-7-1440.png` | hidden until a real project exists | Do not seed their projects |
+| home | 8 | Quotes | Quote cards in a row | heading · cards | Display heading. Quote, name, role. | none | scroll | reveal | `research/peers/metric/measures/home/band-8.md` | `research/peers/metric/pages/home/band-8-1440.png` | dropped until real quotes | Do not copy their quotes or names |
+| home | 9 | Careers | Text beside a stacked video | L copy · R stacked frames | Display headline | pill, careers | scroll | scrub/parallax | `research/peers/metric/measures/home/band-9.md` | `research/peers/metric/pages/home/band-9-1440.png` | dropped — careers are out of scope | Do not add a careers page or their video |
+| home | 10 | Close | Full-bleed photo and one button | bg photo · centered type · one pill | Display centered. Short subline. | one solid pill, Contact us. The second button is dropped. | scroll | reveal | `research/peers/metric/measures/home/band-10.md` | `research/peers/metric/pages/home/band-10-1440.png` | pending close copy | Do not use their slogan or a join-team button |
+| about | 1 | Hero | Full-bleed photo, centered headline | bg photo · centered type | Display uppercase | none | static | none | `research/peers/metric/measures/about/band-1.md` | `research/peers/metric/pages/about/first-screen-1440.png` | pending copy | This hero is static. Do not add the home scrub. |
+| about | 2 | Story | Photo and copy | L photo · R paragraphs · pill | Display heading. Body. | one pill | scroll | reveal | `research/peers/metric/measures/about/band-2.md` | `research/peers/metric/pages/about/band-2-1440.png` | pending. No invented history. | Do not write a founding story |
+| about | 3 | Principles | Pinned numbered cards | heading · two cards advance | Display on each card | none | scroll | sticky/pin | `research/peers/metric/measures/about/band-3.md` | `research/peers/metric/pages/about/band-3-1440.png` | card copy pending | Do not invent principles |
+| about | 4 | Values | A row of large words | words in a line, edges clipped | Display uppercase | none | scroll | reveal | `research/peers/metric/measures/about/band-4.md` | `research/peers/metric/pages/about/band-4-1440.png` | dropped until the client names the words | Do not invent values |
+| about | 5 | Team | Portrait grid | heading · 4-col cards | Name and role under a photo | pill, dropped with careers | scroll | reveal | `research/peers/metric/measures/about/band-5.md` | `research/peers/metric/pages/about/band-5-1440.png` | dropped — no staff photos | Do not use their people |
+| about | 6 | Two stories | Alternating photo and copy | photo and text swap sides | Display and body | careers pill dropped | scroll | small scrub | `research/peers/metric/measures/about/band-6.md` | `research/peers/metric/pages/about/band-6-1440.png` | careers half dropped · other half pending | Do not invent community claims |
+| about | 7 | Close | Same close band as home 10 | bg photo · centered type · one pill | Display centered | Contact us | scroll | reveal | `research/peers/metric/measures/about/band-7.md` | `research/peers/metric/pages/about/band-7-1440.png` | pending close copy | Do not use their slogan |
+| services | 1 | Hero | Full-bleed photo, headline low | bg photo · type bottom left | Display and a short subline | none | static | none | `research/peers/metric/measures/services/band-1.md` | `research/peers/metric/pages/services/first-screen-1440.png` | pending copy | Static hero. Do not add the home scrub. |
+| services | 2 | Service steps | Numbered rail and a photo | rail across the top · L text · R photo | Index, display name, body | pill to a project, hidden until a project exists | scroll + click | small scrub | `research/peers/metric/measures/services/band-2.md` | `research/peers/metric/pages/services/band-2-1440.png` | steps pending | Do not invent service names. Scroll frames stayed on step 01, so the step change is a click. |
+| services | 3 | Three cards | Heading and three cards | heading · 3 cards | Display heading. Card title and body. | none | scroll | small scrub | `research/peers/metric/measures/services/band-3.md` | `research/peers/metric/pages/services/band-3-1440.png` | copy pending | Do not invent the three statements |
+| projects | 1 | Hero | Full-bleed photo, type at the left | bg photo · L type · two pills | Display and body | two pills: featured, and all projects | static | none | `research/peers/metric/measures/projects/band-1.md` | `research/peers/metric/pages/projects/first-screen-1440.png` | pending copy | Static hero. Do not add the home scrub. |
+| projects | 2 | Featured | Image carousel | heading · cards peek off the right · arrows | Title, place, category on the photo | arrow controls | scroll + click | reveal | `research/peers/metric/measures/projects/band-2.md` | `research/peers/metric/pages/projects/band-2-1440.png` | hidden until a real project exists | Do not seed their projects |
+| projects | 3 | Project list | Rows, not a 3-column grid | filters · row · thumbnail at the right | Title, place, category pill | row is the link | scroll + click | reveal | `research/peers/metric/measures/projects/band-3.md` | `research/peers/metric/pages/projects/band-3-1440.png` | filters hidden · rows pending | Do not invent categories or projects |
+| projects | 4 | Close | Same close band | bg photo · one pill | Display centered | Contact us | scroll | reveal | `research/peers/metric/measures/projects/band-4.md` | `research/peers/metric/pages/projects/band-4-1440.png` | pending close copy | Do not use their slogan |
+| contact | 1 | Enquiry | Photo with a form card | bg photo · cream card overlapping | Display on the photo. Form labels. | submit pill | static | none | `research/peers/metric/measures/contact/band-1.md` | `research/peers/metric/pages/contact/first-screen-1440.png` | form to ilindenad@gmail.com | Do not copy their bid wording |
+| contact | 2 | Direct contact | Rows for phone and email | icon · label · detail · value | Row label and the value | phone and email links | scroll | reveal | `research/peers/metric/measures/contact/band-2.md` | `research/peers/metric/pages/contact/band-2-1440.png` | phone and email in · address pending | Do not invent a street or hours |
 
 ### Motion map
 
@@ -136,7 +161,36 @@ Every Blueprint band, `none` if static, within the Animation level budget (beyon
 
 | Route | # | Motion | What moves (reference) | Trigger | Rebuild (tokens) | State PNGs |
 |---|---|---|---|---|---|---|
-| `/` | 1 | [REQUIRED after pick] | | | | `research/peers/…/states/` or — |
+| `/` | 1 | none — hero scrub excluded | Photograph clips upward into a line drawing of the same scene. Background video. | scroll | Confirmed: still full-bleed image. Headline visible immediately. No video scrub and no line drawing. | `research/peers/metric/states/home/sweep-1440-001.jpg` to `004.jpg` |
+| `/` | 2 | reveal | Block fades in | scroll into view | Scroll appear, once | `research/peers/metric/states/home/band-2-1440-after.png` |
+| `/` | 3 | none | Logo set changes between frames; the probe recorded no transform | — | dropped | `research/peers/metric/states/home/sweep-1440-008.jpg` |
+| `/` | 4 | reveal | Block fades in. Four labels expand on click. | scroll, then click | Scroll appear. Click opens one label. | `research/peers/metric/states/home/band-4-1440-after.png` |
+| `/` | 5 | sticky/pin | Images travel on the cream field. The step changes from 01 to 02 while the heading holds. | scroll | Rebuild the pin. This is the signature sticky moment. At 375 it is a short stack, not the tall pin. | `research/peers/metric/states/home/sweep-1440-014.jpg`, `017.jpg` |
+| `/` | 6 | small scrub | A child shifts about 56px inside the band | scroll | Keep the small shift. Do not show figures. | `research/peers/metric/states/home/band-6-1440-after.png` |
+| `/` | 7 | reveal | Carousel fades in. Arrows move it. | scroll, then click | Scroll appear plus click arrows | `research/peers/metric/pages/home/band-7-1440.png` |
+| `/` | 8 | reveal | Quote row fades in | scroll | dropped | `research/peers/metric/pages/home/band-8-1440.png` |
+| `/` | 9 | scrub/parallax | Stacked frames shift about 37px | scroll | dropped | `research/peers/metric/pages/home/band-9-1440.png` |
+| `/` | 10 | reveal | Close band fades in | scroll | Scroll appear. Not on the first screen. | `research/peers/metric/pages/home/band-10-1440.png` |
+| `/about` | 1 | none | Hero does not move while scrolling | static | Still photo. No home-hero scrub. | `research/peers/metric/pages/about/first-screen-1440.png` |
+| `/about` | 2 | reveal | Story fades in | scroll | Scroll appear | `research/peers/metric/states/about/band-2-1440-before.png` |
+| `/about` | 3 | sticky/pin | A child stays put for about 271px of scroll. The band is 3600px tall at 1440. | scroll | Rebuild the pin. Second sticky moment, kept because the non-hero motion is to be followed closely. | `research/peers/metric/pages/about/band-3-1440.png` |
+| `/about` | 4 | reveal | Word row fades in | scroll | dropped | `research/peers/metric/pages/about/band-4-1440.png` |
+| `/about` | 5 | reveal | Team grid fades in | scroll | dropped | `research/peers/metric/pages/about/band-5-1440.png` |
+| `/about` | 6 | small scrub | A child shifts about 94px | scroll | Careers half dropped. Remaining story may keep the small shift. | `research/peers/metric/pages/about/band-6-1440.png` |
+| `/about` | 7 | reveal | Close band fades in | scroll | Scroll appear | `research/peers/metric/pages/about/band-7-1440.png` |
+| `/services` | 1 | none | Hero does not move | static | Still photo | `research/peers/metric/pages/services/first-screen-1440.png` |
+| `/services` | 2 | small scrub | A child shifts about 46px. Eight click candidates. Opened frames stayed on step 01. | scroll + click | Small shift. Step change on click, not a second pinned story. | `research/peers/metric/states/services/sweep-1440-005.jpg` |
+| `/services` | 3 | small scrub | A child shifts about 47px | scroll | Small shift on the card group | `research/peers/metric/pages/services/band-3-1440.png` |
+| `/projects` | 1 | none | Hero does not move | static | Still photo | `research/peers/metric/pages/projects/first-screen-1440.png` |
+| `/projects` | 2 | reveal | Featured carousel fades in. Arrows move it. | scroll, then click | Scroll appear plus click arrows | `research/peers/metric/pages/projects/band-2-1440.png` |
+| `/projects` | 3 | reveal | List fades in. A row is a link. | scroll + click | Scroll appear | `research/peers/metric/pages/projects/band-3-1440.png` |
+| `/projects` | 4 | reveal | Close band fades in | scroll | Scroll appear | `research/peers/metric/pages/projects/band-4-1440.png` |
+| `/contact` | 1 | none | Form card does not move | static | Still photo behind the card | `research/peers/metric/pages/contact/first-screen-1440.png` |
+| `/contact` | 2 | reveal | Contact rows fade in | scroll | Scroll appear | `research/peers/metric/pages/contact/band-2-1440.png` |
+
+Header: fixed. Light type on photographs, dark type on the cream ground. The reference pill is a careers link; ours is Contact us. Mobile menu covers about 93% of the width and opens over 0.6s ease. Measured UI transitions are 0.3s ease (66 of them). Pinned sections are tied to scroll position, not to a duration. Reduced motion shows the final state at once.
+
+Chrome is shared. The reference stack is GSAP 3.15, ScrollTrigger, Lenis, and Swiper. Rebuild with `motion` and the kit scroll reveal. Do not paste their script. Cloneability in the report is medium.
 
 ### Clone build lessons (Blockers on every band — full text: `.cursor/skills/build-page/references/clone-lessons.md`)
 
@@ -177,7 +231,7 @@ Budget by Animation level: `.cursor/rules/design.mdc` → Motion budget (single 
 | Field | Value |
 |---|---|
 | Animation level | Medium |
-| Reference motion stack observed | [REQUIRED after pick: none / CSS / IntersectionObserver / GSAP / Lenis — note only] |
+| Reference motion stack observed | GSAP 3.15, ScrollTrigger, Lenis, Swiper — note only. Rebuild with `motion`, not their script. |
 | Default in-view entrance | **Scroll appear** (below) — change only on the user's explicit ask |
 | Reduced motion | Always: final state at once, layout intact |
 
@@ -185,7 +239,9 @@ Budget by Animation level: `.cursor/rules/design.mdc` → Motion budget (single 
 
 | # | Band / route | What moves | Trigger | Tokens | Evidence (state PNGs) |
 |---|---|---|---|---|---|
-| 1 | [REQUIRED after pick, per budget] | | scroll into view / scrub / sticky / hover / load | `--motion-reveal-*` | `research/peers/…/states/…` |
+| 1 | home 5 scope story | Images travel and the step label changes | scroll position | pin, not `--motion-reveal-*` | `research/peers/metric/states/home/sweep-1440-014.jpg` |
+| 2 | about 3 principles | Numbered cards stay while the page scrolls | scroll position | pin | `research/peers/metric/pages/about/band-3-1440.png` |
+| 3 | other live bands | Opacity reveal, or a shift under 100px | scroll into view | `--motion-reveal-*` for reveals | `research/peers/metric/behaviors.md` |
 
 ## Content checklist
 
@@ -233,6 +289,15 @@ Every choice made without a lock: clone pick, competitor check, clone exceptions
 | 2026-11-04 | Ignore `brief/client-questions.docx` and `brief/client-card.md`. Do not read, modify, or delete them. They are Kosova Wine and are not input for this project. Layer is cms for a construction company (AD Ilinden Struga). Facts come only from what the user provides in chat. Do not modify Web Brain or Thrio OS. | User instruction this chat | user |
 | 2026-11-04 | Kickoff draft uses only the user's AD Ilinden notes. Research is context, not site copy: zk.mk and club200.mk listing; a Facebook-linked site did not load on 2026-11-03; Google Maps shows no website; Facebook https://www.facebook.com/adilindenstruga/ (417 followers, last visible post 2023-03-07); current logo is outdated clip-art. Do not publish rankings, history, services, projects, certifications, or achievements until the client confirms the wording. | User notes | user |
 | 2026-11-04 | Plan confirmed. Languages mk, en (main mk). Animation Medium. Pages: Home, About, Services, Projects, Contact, Privacy, 404. CTA "Contact us"; form to ilindenad@gmail.com; WhatsApp off. Audience: private clients and businesses; no public prices. Street, hours, domain, and logo stay pending. Logo redesign and social-account management stay out of scope. | User replied ok | user |
+| 2026-11-05 | Reference is METRIC, https://www.metriccivil.ca/. Cloneability medium. Not a direct competitor: a civil firm in Canada, not the Struga market. Their branding, text, photos, logos, and people are not used. | User named it as the primary reference | user |
+| 2026-11-05 | Do not rebuild the home hero scrub (photo into a matching line drawing, background video, play control). Other captured motion is rebuilt close to the reference, including the home scope pin and the about principles pin. | User | user |
+| 2026-11-05 | Confirmed: home hero is a still full-bleed image, headline visible immediately, no video scrub and no line drawing. Project index is METRIC's featured carousel plus a one-column list, not a 3-column grid. METRIC is not a direct competitor. | User | user |
+| 2026-11-05 | Home and about captures are flagged incomplete: the layout pass stopped at 8450 of 10693px on home and short of the end on about. Lenis was on the page. The footer element was photographed and the home filmstrip reached scroll 10693. Refs is not approved while `report.md` says incomplete. | Capture check | agent |
+| 2026-11-05 | Project-scoped waiver: the incomplete METRIC home and about footer captures are accepted for design. The research report is left unchanged. This does not change the capture tool or shared files. | User explicitly approved proceeding to design | user |
+| 2026-11-05 | Agreed structure confirmed at design. Reference grammar kept: full-bleed photos, uppercase display, one pill, pinned stories, carousel, one-column project list. Conflicts already logged: still hero, no 3-column project grid. | Design | agent |
+| 2026-11-05 | Direction Limestone proposed. Iron field and limestone ground, not the reference blue and peach. League Spartan and Schibsted Grotesk replace Geom Graphic and Arialnova. Azeret Mono dropped. Approval of palette, type, and the home 10 sample is still open. | Design, awaiting user ok | agent |
+| 2026-11-05 | Limestone stays dominant. Dark brown and iron are accents for type, the contact pill, and details, about 10% of the page. Empty photographs are an off-white plate, not a brown field. Real construction photos carry the large visual. | User refinement | user |
+| 2026-11-05 | Palette, type, and the home 10 sample are approved. Direction remains Limestone. | User replied ok | user |
 
 ## Pre-ship gate
 
