@@ -15,11 +15,18 @@ export type SiteSettings = {
   defaultSeo: Seo;
 };
 
+export type HeroBlock = {
+  _type: "hero";
+  heading: string;
+  body: string;
+  image: { src: string; alt: string };
+};
+
 export type PageDocument = {
   language: "mk" | "en";
   slug: string;
   path: string;
   title: string;
   seo: Seo;
-  sections: unknown[];
+  sections: Array<HeroBlock | { _type: string }>;
 };

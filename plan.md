@@ -128,7 +128,7 @@ A hard lock that yields to a measured reference value. Log here **and** in `DESI
 
 | Page | # | Band | Archetype | Element map | Type roles | CTA anatomy | Interaction | Motion | Measures (375/1440) | Screenshots | Client content / dropped | Do not invent |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| home | 1 | Hero | Full-bleed media, centered headline | bg photo · centered type · small media control | Display uppercase, centered. Subline under it. | none in the hero | scroll | reference scrub/parallax — not rebuilt | `research/peers/metric/measures/home/band-1.md` | `research/peers/metric/pages/home/band-1-*.png` | pending hero copy · still photo later | Do not rebuild the photo-to-line-drawing scrub, the background video, or the play control |
+| home | 1 | Hero | Full-bleed media, centered headline | bg photo · centered type · small media control | Display uppercase, centered. Subline under it. | none in the hero | scroll | reference scrub/parallax — not rebuilt | `research/peers/metric/measures/home/band-1.md` | `research/peers/metric/pages/home/band-1-*.png` | locked hero lines · generated daylight site photo | Do not rebuild the photo-to-line-drawing scrub, the background video, or the play control |
 | home | 2 | Intro | Split headline and two photos | L headline · R paragraph · two photos below | Display uppercase left. Body 20px right. | none | scroll | reveal | `research/peers/metric/measures/home/band-2.md` | `research/peers/metric/pages/home/band-2-*.png` | pending copy and photos | Do not use their headline or photos |
 | home | 3 | Logo row | Centered label and a logo strip | centered label · row of marks | Small uppercase label | none | static | none | `research/peers/metric/measures/home/band-3.md` | `research/peers/metric/pages/home/band-3-*.png` | dropped — no client logos | Do not use their client marks |
 | home | 4 | Capabilities | Photo with four expanding labels | bg photo · type bottom left · four pills | Display on the photo. Pill labels uppercase. | pill expands on click | scroll + click | reveal | `research/peers/metric/measures/home/band-4.md` | `research/peers/metric/pages/home/band-4-*.png` | labels pending until services are named | Do not invent the four labels |
@@ -218,7 +218,7 @@ Missing copy renders as `<PendingText lines={n}>` (n from the capture's copy bud
 |---|---|
 | `brand.name` | AD Ilinden Struga |
 | `nav.primaryCta` | Contact us |
-| `home.hero.headline` · `.subline` · `.cta` | [[PENDING: client-approved hero copy]] · [[PENDING: client-approved hero subline]] · Contact us |
+| `home.hero.headline` · `.subline` · `.cta` | mk: Ние градиме во Струга. · en: We build for Struga. · mk: Градежна компанија со седиште во Струга, Северна Македонија. · en: A construction company based in Struga, North Macedonia. · Contact us |
 | `footer.tagline` | [[PENDING: footer tagline]] |
 | `contact.form.submit` | Send message |
 | `404.title` | [[PENDING: 404 title in the main language]] |
@@ -300,6 +300,7 @@ Every choice made without a lock: clone pick, competitor check, clone exceptions
 | 2026-11-05 | Palette, type, and the home 10 sample are approved. Direction remains Limestone. | User replied ok | user |
 | 2026-11-05 | Scaffold uses Next 16.4.5, which is above the security floor 16.4.1. metadataBase falls back to https://example.com until NEXT_PUBLIC_SITE_URL is set. The approved fonts have no Cyrillic subset, so Macedonian text will use the fallback face until a Cyrillic pair is approved. The contact form stays disabled until the Turnstile site key exists. | Scaffold | agent |
 | 2026-11-05 | Pre-ship HIGH: our built site has not been captured yet, so copy-check has nothing to compare. That capture waits until the pages exist. | preship-scrub | agent |
+| 2026-11-05 | Home hero copy is the short construction line in the Copy lock. It states the company and the city only. Rankings, years, and project claims stay out. The hero photograph is a generated daylight construction scene in `public/images/home-hero.jpg`, used because no client photograph is on file. Replace it when the client supplies one. On the narrow header the Contact us pill moves into the menu so the logo and menu control fit. | User asked to finish the hero before approval | user |
 
 ## Pre-ship gate
 

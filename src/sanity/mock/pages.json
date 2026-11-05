@@ -8,7 +8,17 @@
       "title": "AD Ilinden Struga",
       "description": "AD Ilinden Struga is a construction company in Struga, North Macedonia."
     },
-    "sections": []
+    "sections": [
+      {
+        "_type": "hero",
+        "heading": "Ние градиме во Струга.",
+        "body": "Градежна компанија со седиште во Струга, Северна Македонија.",
+        "image": {
+          "src": "/images/home-hero.jpg",
+          "alt": "Градежен локалитет на дневна светлина"
+        }
+      }
+    ]
   },
   {
     "language": "en",
@@ -19,7 +29,17 @@
       "title": "AD Ilinden Struga",
       "description": "AD Ilinden Struga is a construction company in Struga, North Macedonia."
     },
-    "sections": []
+    "sections": [
+      {
+        "_type": "hero",
+        "heading": "We build for Struga.",
+        "body": "A construction company based in Struga, North Macedonia.",
+        "image": {
+          "src": "/images/home-hero.jpg",
+          "alt": "Construction site in daylight"
+        }
+      }
+    ]
   },
   {
     "language": "mk",

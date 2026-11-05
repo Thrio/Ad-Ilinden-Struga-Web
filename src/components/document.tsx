@@ -20,7 +20,9 @@ export function Document({ lang, children }: { lang: "mk" | "en"; children: Reac
   return (
     <html lang={lang} className={`${display.variable} ${body.variable}`}>
       <body>
-        <a href="#content">Skip to content</a>
+        <a href="#content" className="skip-link">
+          Skip to content
+        </a>
         {children}
       </body>
     </html>

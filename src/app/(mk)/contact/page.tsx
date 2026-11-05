@@ -1,4 +1,5 @@
 import { PageScreen } from "@/components/page-screen";
+import { PageWithShell } from "@/components/page-with-shell";
 import { metadataFor } from "@/lib/metadata";
 
 export function generateMetadata() {
@@ -6,5 +7,9 @@ export function generateMetadata() {
 }
 
 export default function Page() {
-  return <PageScreen language="mk" slug="contact" />;
+  return (
+    <PageWithShell language="mk">
+      <PageScreen language="mk" slug="contact" />
+    </PageWithShell>
+  );
 }
