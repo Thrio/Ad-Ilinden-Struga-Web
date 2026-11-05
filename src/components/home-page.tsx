@@ -1,4 +1,5 @@
 import { HomeHero } from "@/components/blocks/home-hero";
+import { HomeIntro } from "@/components/blocks/home-intro";
 import type { Language } from "@/lib/routes";
 import { getPage } from "@/sanity/load";
 import type { HeroBlock } from "@/sanity/types";
@@ -15,6 +16,7 @@ export async function HomePage({ language }: { language: Language }) {
   return (
     <main id="content">
       {hero ? <HomeHero heading={hero.heading} body={hero.body} image={hero.image} /> : null}
+      <HomeIntro />
     </main>
   );
 }

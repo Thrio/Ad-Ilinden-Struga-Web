@@ -19,6 +19,7 @@ Page = the `--page` name used with band-check (as in `research/page-map.json`). 
 | Page | Band | Status | Rounds | Minutes | Note |
 |---|---|---|---|---|---|
 | home | 1 | ok | 3 | 20 | User ok. Still full-bleed photo, locked headline, no video or scrub. Checker stays FIX on the omitted play control and because later home bands are not on the page yet. Generated daylight photo until a client photo arrives. |
+| home | 2 | needs review | 3 | 20 | Split headline, paragraph, and two plates. Heights match (375: 1129, 1440: 755). Checker stays FIX: reference band is 1425px wide, and the empty plates have no photo edges. Their photos are not used. |
 
 ## Run log
 
@@ -36,3 +37,4 @@ Overnight and long runs: one line per step — time · step · result · next. D
 | 2026-11-05 | design | User approved the palette, type, and home 10 sample. | /scaffold |
 | 2026-11-05 | scaffold | Empty shell builds. Next 16.4.5. Mock Sanity content. Preship has no BLOCKER. | /build home band 1 |
 | 2026-11-05 | build | Home band 1 approved. Still hero, locked copy, generated daylight photo. | /build home band 2 |
+| 2026-11-05 | build | Home band 2 built. Needs review after 3 rounds: scrollbar width and empty photo plates. | /build home band 4 |
