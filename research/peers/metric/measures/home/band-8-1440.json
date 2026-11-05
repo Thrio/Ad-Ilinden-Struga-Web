@@ -1,0 +1,221 @@
+{
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "placement": {
+    "top": 7858,
+    "viewportTop": 116,
+    "left": 0,
+    "width": 1425,
+    "height": 785
+  },
+  "summary": {
+    "padding": "0px 0px 0px 0px",
+    "margin": "0px 0px",
+    "display": "block",
+    "flexDirection": "row",
+    "gap": "normal",
+    "contentBox": {
+      "maxWidth": "833px",
+      "width": 833,
+      "paddingInline": "0px 0px",
+      "tag": "div"
+    },
+    "columns": 4,
+    "layoutDriver": "flex row",
+    "layoutGap": "normal",
+    "backgroundPaint": "opaque",
+    "border": "0px 0px 0px 0px",
+    "radius": "0px",
+    "heading": {
+      "tag": "h3",
+      "family": "Geom Graphic",
+      "size": "64px",
+      "weight": "600",
+      "lineHeight": "76.8px",
+      "letterSpacing": "normal",
+      "transform": "uppercase",
+      "chars": 34,
+      "lines": 2
+    },
+    "body": {
+      "tag": "p",
+      "family": "Arialnova",
+      "size": "20px",
+      "weight": "400",
+      "lineHeight": "30px",
+      "letterSpacing": "normal",
+      "transform": "none",
+      "chars": 169,
+      "lines": 5
+    },
+    "copy": {
+      "paragraphs": 24,
+      "bodyChars": 2535
+    },
+    "slots": {
+      "h1": 0,
+      "h2": 0,
+      "h3": 1,
+      "p": 24,
+      "li": 0,
+      "links": 0,
+      "buttons": 0,
+      "images": 0,
+      "video": 0,
+      "svg": 0,
+      "inputs": 0,
+      "canvas": 0
+    }
+  },
+  "tree": {
+    "tag": "section",
+    "cls": "section-home-testimonials",
+    "box": {
+      "top": 7858,
+      "left": 0,
+      "width": 1425,
+      "height": 785
+    },
+    "styles": {
+      "fontFamily": "Arialnova",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "textAlign": "start",
+      "width": "1425px",
+      "height": "784.594px",
+      "boxSizing": "border-box",
+      "display": "block",
+      "flexDirection": "row",
+      "flexWrap": "nowrap",
+      "overflow": "hidden",
+      "borderTopColor": "rgb(29, 29, 29)",
+      "position": "static",
+      "objectFit": "fill",
+      "objectPosition": "50% 50%",
+      "opacity": "1"
+    },
+    "backgroundPaint": "opaque",
+    "text": null,
+    "img": null,
+    "childCount": 1,
+    "children": [
+      {
+        "tag": "div",
+        "cls": "page-padding",
+        "box": {
+          "top": 7858,
+          "left": 0,
+          "width": 1425,
+          "height": 785
+        },
+        "styles": {
+          "fontFamily": "Arialnova",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "textAlign": "start",
+          "padding": "0px 24px",
+          "paddingRight": "24px",
+          "paddingLeft": "24px",
+          "width": "1425px",
+          "height": "784.594px",
+          "boxSizing": "border-box",
+          "display": "block",
+          "flexDirection": "row",
+          "flexWrap": "nowrap",
+          "overflow": "visible",
+          "borderTopColor": "rgb(29, 29, 29)",
+          "position": "static",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%",
+          "opacity": "1"
+        },
+        "backgroundPaint": "transparent",
+        "text": null,
+        "img": null,
+        "childCount": 1,
+        "children": [
+          {
+            "tag": "div",
+            "cls": "padding-section-96",
+            "box": {
+              "top": 7858,
+              "left": 24,
+              "width": 1377,
+              "height": 785
+            },
+            "styles": {
+              "fontFamily": "Arialnova",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "textAlign": "start",
+              "padding": "96px 0px",
+              "paddingTop": "96px",
+              "paddingBottom": "96px",
+              "width": "1377px",
+              "height": "784.594px",
+              "boxSizing": "border-box",
+              "display": "block",
+              "flexDirection": "row",
+              "flexWrap": "nowrap",
+              "overflow": "visible",
+              "borderTopColor": "rgb(29, 29, 29)",
+              "position": "static",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%",
+              "opacity": "1"
+            },
+            "backgroundPaint": "transparent",
+            "text": null,
+            "img": null,
+            "childCount": 1,
+            "children": [
+              {
+                "tag": "div",
+                "cls": "home-testimonials_wrapper",
+                "box": {
+                  "top": 7954,
+                  "left": 24,
+                  "width": 1377,
+                  "height": 593
+                },
+                "styles": {
+                  "fontFamily": "Arialnova",
+                  "fontSize": "16px",
+                  "fontWeight": "400",
+                  "lineHeight": "24px",
+                  "textAlign": "start",
+                  "width": "1377px",
+                  "height": "592.594px",
+                  "boxSizing": "border-box",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "flexWrap": "nowrap",
+                  "justifyContent": "flex-start",
+                  "alignItems": "center",
+                  "gap": "64px",
+                  "rowGap": "64px",
+                  "columnGap": "64px",
+                  "overflow": "visible",
+                  "borderTopColor": "rgb(29, 29, 29)",
+                  "position": "static",
+                  "objectFit": "fill",
+                  "objectPosition": "50% 50%",
+                  "opacity": "1"
+                },
+                "backgroundPaint": "transparent",
+                "text": null,
+                "img": null,
+                "childCount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+research
+brief
+.cursor
+tools
+design
+*.md
+!README.md

@@ -1,0 +1,26 @@
+{
+  "robots": "robots.txt found",
+  "ownerPermission": null,
+  "events": {
+    "blocked": [
+      {
+        "url": "wss://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/w",
+        "reason": "websocket (not needed for layout capture)",
+        "type": "websocket"
+      }
+    ],
+    "privateResponses": [],
+    "popups": 0,
+    "dialogs": 0,
+    "downloads": 0
+  },
+  "overlaysHidden": [],
+  "hiddenTextTotals": {
+    "home": 31,
+    "about": 15,
+    "services": 20,
+    "projects": 13,
+    "contact": 4
+  },
+  "injection": []
+}

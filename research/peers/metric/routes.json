@@ -1,0 +1,42 @@
+{
+  "origin": "https://www.metriccivil.ca",
+  "pages": [
+    {
+      "path": "/",
+      "type": "home",
+      "reason": "start URL",
+      "slug": "home",
+      "url": "https://www.metriccivil.ca/"
+    },
+    {
+      "path": "/about",
+      "type": "about",
+      "reason": "nav link \"ABOUT ABOUT\"",
+      "slug": "about",
+      "url": "https://www.metriccivil.ca/about"
+    },
+    {
+      "path": "/services",
+      "type": "services",
+      "reason": "nav link \"SERVICES SERVICES\"",
+      "slug": "services",
+      "url": "https://www.metriccivil.ca/services"
+    },
+    {
+      "path": "/projects",
+      "type": "work",
+      "reason": "nav link \"PROJECTS PROJECTS\"",
+      "slug": "projects",
+      "url": "https://www.metriccivil.ca/projects"
+    },
+    {
+      "path": "/contact",
+      "type": "contact",
+      "reason": "nav link \"CONTACT CONTACT\"",
+      "slug": "contact",
+      "url": "https://www.metriccivil.ca/contact"
+    }
+  ],
+  "skipped": [],
+  "linksSeen": 19
+}

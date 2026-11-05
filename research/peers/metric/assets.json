@@ -1,0 +1,6093 @@
+{
+  "note": "inventory only — nothing was downloaded; logoSuspect items are never taken",
+  "home/band-1@1440": {
+    "images": [],
+    "backgrounds": [
+      {
+        "urls": [
+          "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d0f643cdc8575d5ab413d_f18c070f99bd8fe587f97df7eb6b4cc1_metric-civil-contractors-homepage-01.avif"
+        ],
+        "gradient": false,
+        "size": "cover",
+        "position": "50% 50%",
+        "box": [
+          1425,
+          900
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [
+          "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a201ef4707cb9d4bca02626_22d5b1a7d84aa2ab8c82d2b563f9df90_metric-civil-contractors-homepage-hero-outline.webp"
+        ],
+        "gradient": false,
+        "size": "cover",
+        "position": "50% 50%",
+        "box": [
+          1425,
+          900
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      }
+    ],
+    "videos": [
+      {
+        "src": "https://s3.amazonaws.com/webflow-prod-assets/69cd93c94e190d89bd24bee7/6a44fac8249fe584be8390f0_METRIC.-About%20Us-Video-2025.mp4",
+        "poster": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1d1f5b0d44a99b54a15a_metric-civil-contractors-homepage-10.webp",
+        "autoplay": true,
+        "muted": true,
+        "loop": true,
+        "rendered": [
+          189,
+          106
+        ]
+      }
+    ],
+    "svgInline": 2,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 3
+  },
+  "home/band-2@1440": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d0f0e65d062b2a6fea6b2_b3001d68ca095558ead2e69631740026_metric-civil-contractors-homepage-03.webp",
+        "alt": "Construction worker in a hard hat and safety vest holding a shovel at an excavation site.",
+        "natural": [
+          656,
+          638
+        ],
+        "rendered": [
+          437,
+          425
+        ],
+        "aspect": 1.03,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7%2F6a966faad654143aa9f0feaf_Web%20Banner-Higher%20Standard%203_mp4.mp4",
+        "poster": "",
+        "autoplay": true,
+        "muted": true,
+        "loop": true,
+        "rendered": [
+          899,
+          425
+        ]
+      }
+    ],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 2
+  },
+  "home/band-3@1440": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a5bd378d62b6ee700_metric-civil-contractors-cheam-logo.webp",
+        "alt": "cheam logo",
+        "natural": [
+          197,
+          80
+        ],
+        "rendered": [
+          131,
+          53
+        ],
+        "aspect": 2.46,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2abd358dea9a25e3e8_metric-civil-contractors-crezo-logo.webp",
+        "alt": "crezo logo",
+        "natural": [
+          137,
+          42
+        ],
+        "rendered": [
+          91,
+          28
+        ],
+        "aspect": 3.26,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2ad9dab01e909caaaf_metric-civil-contractors-fortis-logo.webp",
+        "alt": "fortis logo",
+        "natural": [
+          197,
+          42
+        ],
+        "rendered": [
+          131,
+          28
+        ],
+        "aspect": 4.69,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2ac3efbb267ad82154_metric-civil-contractors-olivit-logo.webp",
+        "alt": "olivit logo",
+        "natural": [
+          197,
+          62
+        ],
+        "rendered": [
+          131,
+          41
+        ],
+        "aspect": 3.18,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a929285f0a6c1edf0_metric-civil-contractors-surrey-schools-logo.webp",
+        "alt": "surrey schools logo",
+        "natural": [
+          197,
+          65
+        ],
+        "rendered": [
+          131,
+          43
+        ],
+        "aspect": 3.03,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a9165c2dad29b1f57_metric-civil-contractors-double-v-construction-logo.webp",
+        "alt": "double v construction logo",
+        "natural": [
+          197,
+          51
+        ],
+        "rendered": [
+          131,
+          34
+        ],
+        "aspect": 3.86,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a3cdc8575d5aebe56_metric-civil-contractors-chartwell-logo.webp",
+        "alt": "chartwell logo",
+        "natural": [
+          197,
+          51
+        ],
+        "rendered": [
+          131,
+          34
+        ],
+        "aspect": 3.86,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2aa3301b3a9de3f339_metric-civil-contractors-skowkale-logo.webp",
+        "alt": "skowkale logo",
+        "natural": [
+          162,
+          75
+        ],
+        "rendered": [
+          108,
+          50
+        ],
+        "aspect": 2.16,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2ad9dab01e909caadb_metric-civil-contractors-wsp-logo.webp",
+        "alt": "wsp logo",
+        "natural": [
+          129,
+          62
+        ],
+        "rendered": [
+          86,
+          41
+        ],
+        "aspect": 2.08,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a1a9d535903f02cae_metric-civil-contractors-kerkhoff-logo.webp",
+        "alt": "kerkhoff logo",
+        "natural": [
+          213,
+          53
+        ],
+        "rendered": [
+          142,
+          35
+        ],
+        "aspect": 4.02,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2aa8018a5104a75d5e_metric-civil-contractors-kds-logo.webp",
+        "alt": "kds logo",
+        "natural": [
+          141,
+          77
+        ],
+        "rendered": [
+          94,
+          51
+        ],
+        "aspect": 1.83,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2acb2062e811194d47_metric-civil-contractors-ram-logo.webp",
+        "alt": "ram logo",
+        "natural": [
+          117,
+          63
+        ],
+        "rendered": [
+          78,
+          42
+        ],
+        "aspect": 1.86,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2ad7faf46c89174109_metric-civil-contractors-kwaw-logo.webp",
+        "alt": "kwaw logo",
+        "natural": [
+          225,
+          83
+        ],
+        "rendered": [
+          150,
+          55
+        ],
+        "aspect": 2.71,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a5bd378d62b6ee700_metric-civil-contractors-cheam-logo.webp",
+        "alt": "cheam logo",
+        "natural": [
+          197,
+          80
+        ],
+        "rendered": [
+          131,
+          53
+        ],
+        "aspect": 2.46,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2abd358dea9a25e3e8_metric-civil-contractors-crezo-logo.webp",
+        "alt": "crezo logo",
+        "natural": [
+          137,
+          42
+        ],
+        "rendered": [
+          91,
+          28
+        ],
+        "aspect": 3.26,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2ad9dab01e909caaaf_metric-civil-contractors-fortis-logo.webp",
+        "alt": "fortis logo",
+        "natural": [
+          197,
+          42
+        ],
+        "rendered": [
+          131,
+          28
+        ],
+        "aspect": 4.69,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2ac3efbb267ad82154_metric-civil-contractors-olivit-logo.webp",
+        "alt": "olivit logo",
+        "natural": [
+          197,
+          62
+        ],
+        "rendered": [
+          131,
+          41
+        ],
+        "aspect": 3.18,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a929285f0a6c1edf0_metric-civil-contractors-surrey-schools-logo.webp",
+        "alt": "surrey schools logo",
+        "natural": [
+          197,
+          65
+        ],
+        "rendered": [
+          131,
+          43
+        ],
+        "aspect": 3.03,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a9165c2dad29b1f57_metric-civil-contractors-double-v-construction-logo.webp",
+        "alt": "double v construction logo",
+        "natural": [
+          197,
+          51
+        ],
+        "rendered": [
+          131,
+          34
+        ],
+        "aspect": 3.86,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a3cdc8575d5aebe56_metric-civil-contractors-chartwell-logo.webp",
+        "alt": "chartwell logo",
+        "natural": [
+          197,
+          51
+        ],
+        "rendered": [
+          131,
+          34
+        ],
+        "aspect": 3.86,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2aa3301b3a9de3f339_metric-civil-contractors-skowkale-logo.webp",
+        "alt": "skowkale logo",
+        "natural": [
+          162,
+          75
+        ],
+        "rendered": [
+          108,
+          50
+        ],
+        "aspect": 2.16,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2ad9dab01e909caadb_metric-civil-contractors-wsp-logo.webp",
+        "alt": "wsp logo",
+        "natural": [
+          129,
+          62
+        ],
+        "rendered": [
+          86,
+          41
+        ],
+        "aspect": 2.08,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a1a9d535903f02cae_metric-civil-contractors-kerkhoff-logo.webp",
+        "alt": "kerkhoff logo",
+        "natural": [
+          213,
+          53
+        ],
+        "rendered": [
+          142,
+          35
+        ],
+        "aspect": 4.02,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2aa8018a5104a75d5e_metric-civil-contractors-kds-logo.webp",
+        "alt": "kds logo",
+        "natural": [
+          141,
+          77
+        ],
+        "rendered": [
+          94,
+          51
+        ],
+        "aspect": 1.83,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2acb2062e811194d47_metric-civil-contractors-ram-logo.webp",
+        "alt": "ram logo",
+        "natural": [
+          117,
+          63
+        ],
+        "rendered": [
+          78,
+          42
+        ],
+        "aspect": 1.86,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2ad7faf46c89174109_metric-civil-contractors-kwaw-logo.webp",
+        "alt": "kwaw logo",
+        "natural": [
+          225,
+          83
+        ],
+        "rendered": [
+          150,
+          55
+        ],
+        "aspect": 2.71,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a5bd378d62b6ee700_metric-civil-contractors-cheam-logo.webp",
+        "alt": "cheam logo",
+        "natural": [
+          197,
+          80
+        ],
+        "rendered": [
+          131,
+          53
+        ],
+        "aspect": 2.46,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2abd358dea9a25e3e8_metric-civil-contractors-crezo-logo.webp",
+        "alt": "crezo logo",
+        "natural": [
+          137,
+          42
+        ],
+        "rendered": [
+          91,
+          28
+        ],
+        "aspect": 3.26,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2ad9dab01e909caaaf_metric-civil-contractors-fortis-logo.webp",
+        "alt": "fortis logo",
+        "natural": [
+          197,
+          42
+        ],
+        "rendered": [
+          131,
+          28
+        ],
+        "aspect": 4.69,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2ac3efbb267ad82154_metric-civil-contractors-olivit-logo.webp",
+        "alt": "olivit logo",
+        "natural": [
+          197,
+          62
+        ],
+        "rendered": [
+          131,
+          41
+        ],
+        "aspect": 3.18,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a929285f0a6c1edf0_metric-civil-contractors-surrey-schools-logo.webp",
+        "alt": "surrey schools logo",
+        "natural": [
+          197,
+          65
+        ],
+        "rendered": [
+          131,
+          43
+        ],
+        "aspect": 3.03,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a9165c2dad29b1f57_metric-civil-contractors-double-v-construction-logo.webp",
+        "alt": "double v construction logo",
+        "natural": [
+          197,
+          51
+        ],
+        "rendered": [
+          131,
+          34
+        ],
+        "aspect": 3.86,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a3cdc8575d5aebe56_metric-civil-contractors-chartwell-logo.webp",
+        "alt": "chartwell logo",
+        "natural": [
+          197,
+          51
+        ],
+        "rendered": [
+          131,
+          34
+        ],
+        "aspect": 3.86,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2aa3301b3a9de3f339_metric-civil-contractors-skowkale-logo.webp",
+        "alt": "skowkale logo",
+        "natural": [
+          162,
+          75
+        ],
+        "rendered": [
+          108,
+          50
+        ],
+        "aspect": 2.16,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2ad9dab01e909caadb_metric-civil-contractors-wsp-logo.webp",
+        "alt": "wsp logo",
+        "natural": [
+          129,
+          62
+        ],
+        "rendered": [
+          86,
+          41
+        ],
+        "aspect": 2.08,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a1a9d535903f02cae_metric-civil-contractors-kerkhoff-logo.webp",
+        "alt": "kerkhoff logo",
+        "natural": [
+          213,
+          53
+        ],
+        "rendered": [
+          142,
+          35
+        ],
+        "aspect": 4.02,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2aa8018a5104a75d5e_metric-civil-contractors-kds-logo.webp",
+        "alt": "kds logo",
+        "natural": [
+          141,
+          77
+        ],
+        "rendered": [
+          94,
+          51
+        ],
+        "aspect": 1.83,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2acb2062e811194d47_metric-civil-contractors-ram-logo.webp",
+        "alt": "ram logo",
+        "natural": [
+          117,
+          63
+        ],
+        "rendered": [
+          78,
+          42
+        ],
+        "aspect": 1.86,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2ad7faf46c89174109_metric-civil-contractors-kwaw-logo.webp",
+        "alt": "kwaw logo",
+        "natural": [
+          225,
+          83
+        ],
+        "rendered": [
+          150,
+          55
+        ],
+        "aspect": 2.71,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "home/band-4@1440": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d0f64ba03ba59acab7de9_ba8c32a93ccb77e686dff80d9f191199_metric-civil-contractors-homepage-04-p-1600.webp",
+        "alt": "Orange Hitachi excavator on dirt mound at a construction site under clear blue sky.",
+        "natural": [
+          1440,
+          871
+        ],
+        "rendered": [
+          1425,
+          930
+        ],
+        "aspect": 1.53,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          0,
+          0
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          0,
+          0
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      }
+    ],
+    "videos": [],
+    "svgInline": 4,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "home/band-5@1440": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d0f0fa75f99c148f4314a_a8423583da4b00b0d3f1a34c5f818e2e_metric-civil-contractors-homepage-09.avif",
+        "alt": "Yellow excavator digging a large hole at a construction site with building materials and structures in background.",
+        "natural": [
+          1440,
+          1891
+        ],
+        "rendered": [
+          231,
+          327
+        ],
+        "aspect": 0.71,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d0f0fa75f99c148f4314a_a8423583da4b00b0d3f1a34c5f818e2e_metric-civil-contractors-homepage-09.avif",
+        "alt": "Yellow excavator digging a large hole at a construction site with building materials and structures in background.",
+        "natural": [
+          366,
+          480
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d0f0edd92b1af68111b95_a55679d07f9891f43ec271fba6209fb6_metric-civil-contractors-homepage-05.avif",
+        "alt": "Construction worker guiding a concrete structure being lowered into a trench by a crane with orange slings.",
+        "natural": [
+          1439,
+          1898
+        ],
+        "rendered": [
+          414,
+          628
+        ],
+        "aspect": 0.66,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d0f0fa75f99c148f4314a_a8423583da4b00b0d3f1a34c5f818e2e_metric-civil-contractors-homepage-09.avif",
+        "alt": "Yellow excavator digging a large hole at a construction site with building materials and structures in background.",
+        "natural": [
+          366,
+          480
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d0f0e850dcc5431f6dddb_e72feb9ac22c7fd47a876d1419f7e1cc_metric-civil-contractors-homepage-06.avif",
+        "alt": "Road construction with workers, excavator, loader, and a bus beside traffic cones on a sunny day.",
+        "natural": [
+          1440,
+          1882
+        ],
+        "rendered": [
+          46,
+          53
+        ],
+        "aspect": 0.86,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d0f0fa75f99c148f4314a_a8423583da4b00b0d3f1a34c5f818e2e_metric-civil-contractors-homepage-09.avif",
+        "alt": "Yellow excavator digging a large hole at a construction site with building materials and structures in background.",
+        "natural": [
+          366,
+          480
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d0f0e5af831be760e9446_596b2817cec1d45033f75a47b2536603_metric-civil-contractors-homepage-07.avif",
+        "alt": "Construction worker operating a yellow excavator on muddy ground with trees in the background.",
+        "natural": [
+          1440,
+          1891
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d0f0fa75f99c148f4314a_a8423583da4b00b0d3f1a34c5f818e2e_metric-civil-contractors-homepage-09.avif",
+        "alt": "Yellow excavator digging a large hole at a construction site with building materials and structures in background.",
+        "natural": [
+          366,
+          480
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 2,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 8
+  },
+  "home/band-6@1440": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d0f63a3301b3a9de0b179_f0ff6ce40e3830096360c52ddc14d8ec_metric-civil-contractors-homepage-08-p-800.webp",
+        "alt": "Aerial view of a construction site with several buildings surrounded by dirt and forested areas.",
+        "natural": [
+          761,
+          413
+        ],
+        "rendered": [
+          1014,
+          551
+        ],
+        "aspect": 1.84,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 2,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "home/band-7@1440": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a45d524b85541162d5cef45_Project-1345%20SJPII%2071-Photo-20240716-p-1600.webp",
+        "alt": "Saint John Paul II Academy ",
+        "natural": [
+          1440,
+          1080
+        ],
+        "rendered": [
+          424,
+          414
+        ],
+        "aspect": 1.02,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3263b792dd1853f5b78b15_metric-civil-contractors-project-12-p-1600.avif",
+        "alt": "UFV Student Housing",
+        "natural": [
+          1440,
+          580
+        ],
+        "rendered": [
+          424,
+          414
+        ],
+        "aspect": 1.02,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3264c9a7441a14f8006460_metric-civil-contractors-project-13-p-1600.avif",
+        "alt": "Bailey Landfill Expansion",
+        "natural": [
+          1440,
+          584
+        ],
+        "rendered": [
+          424,
+          414
+        ],
+        "aspect": 1.02,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a45d524b85541162d5cef45_Project-1345%20SJPII%2071-Photo-20240716-p-1600.webp",
+        "alt": "Saint John Paul II Academy ",
+        "natural": [
+          1440,
+          1080
+        ],
+        "rendered": [
+          1425,
+          795
+        ],
+        "aspect": 1.79,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a4d601e080e21403121de55_Project-1614%20Buntzen%20Access%20Rd%2033-Photo-20240925.webp",
+        "alt": "Buntzen PUMA Access Rd",
+        "natural": [
+          1439,
+          959
+        ],
+        "rendered": [
+          1425,
+          795
+        ],
+        "aspect": 1.79,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3263b792dd1853f5b78b15_metric-civil-contractors-project-12-p-1600.avif",
+        "alt": "UFV Student Housing",
+        "natural": [
+          1440,
+          580
+        ],
+        "rendered": [
+          1425,
+          795
+        ],
+        "aspect": 1.79,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3264c9a7441a14f8006460_metric-civil-contractors-project-13-p-1600.avif",
+        "alt": "Bailey Landfill Expansion",
+        "natural": [
+          1440,
+          584
+        ],
+        "rendered": [
+          1425,
+          795
+        ],
+        "aspect": 1.79,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3263161170f6f903b04a78_metric-civil-contractors-project-10.avif",
+        "alt": "Kitselas Community Centre",
+        "natural": [
+          1440,
+          584
+        ],
+        "rendered": [
+          1425,
+          795
+        ],
+        "aspect": 1.79,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7%2F6a3525ffbee39509ab41649c_1614%20Buntzen%20Access%20Rd-Rainy%20Day%20SloMo-Reel-20241029_mp4.mp4",
+        "poster": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a4d601e080e21403121de55_Project-1614%20Buntzen%20Access%20Rd%2033-Photo-20240925.webp",
+        "autoplay": false,
+        "muted": true,
+        "loop": true,
+        "rendered": [
+          424,
+          414
+        ]
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7%2F6a353051f80feaee003437c9_1314%20Kitselas%20Community%20Centre-Manhole%20Install-Reel-20240702_mp4.mp4",
+        "poster": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3263161170f6f903b04a78_metric-civil-contractors-project-10.avif",
+        "autoplay": false,
+        "muted": true,
+        "loop": true,
+        "rendered": [
+          424,
+          414
+        ]
+      }
+    ],
+    "svgInline": 30,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 10
+  },
+  "home/band-8@1440": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "home/band-9@1440": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [
+      {
+        "src": "https://s3.amazonaws.com/webflow-prod-assets/69cd93c94e190d89bd24bee7/6a1ee0da07adfee3041e45df_Mix%20Projects-Lance's%20Story-Reel-20240702.mp4",
+        "poster": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d547de0fef66e3f6f1052_metric-civil-contractors-homepage-17.webp",
+        "autoplay": false,
+        "muted": true,
+        "loop": true,
+        "rendered": [
+          438,
+          727
+        ]
+      },
+      {
+        "src": "https://s3.amazonaws.com/webflow-prod-assets/69cd93c94e190d89bd24bee7/6a1ee13ceefe2dab0ef06d5d_Mix%20Projects-METRIC.%20Culture-Reel-20240906.mp4",
+        "poster": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d547dcda862b74fbe5e63_metric-civil-contractors-homepage-15.webp",
+        "autoplay": false,
+        "muted": true,
+        "loop": true,
+        "rendered": [
+          404,
+          671
+        ]
+      },
+      {
+        "src": "https://s3.amazonaws.com/webflow-prod-assets/69cd93c94e190d89bd24bee7/6a1ee1a01b97a5ca09a15683_Mix%20Projects-Company%20Growth-Reel-20240906.mp4",
+        "poster": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d547d2052cf8eab31059e_metric-civil-contractors-homepage-16.webp",
+        "autoplay": false,
+        "muted": true,
+        "loop": true,
+        "rendered": [
+          375,
+          623
+        ]
+      }
+    ],
+    "svgInline": 8,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 3
+  },
+  "home/band-10@1440": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d72ec8450be2c710db05c_metric-civil-contractors-homepage-16-p-1600.webp",
+        "alt": "Aerial view of a residential construction site with machinery, new houses, and a large apartment building.",
+        "natural": [
+          1440,
+          1033
+        ],
+        "rendered": [
+          1425,
+          1039
+        ],
+        "aspect": 1.37,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          1425,
+          671
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          1425,
+          671
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      }
+    ],
+    "videos": [],
+    "svgInline": 4,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "home/band-1@375": {
+    "images": [],
+    "backgrounds": [
+      {
+        "urls": [
+          "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d0f643cdc8575d5ab413d_f18c070f99bd8fe587f97df7eb6b4cc1_metric-civil-contractors-homepage-01.avif"
+        ],
+        "gradient": false,
+        "size": "cover",
+        "position": "50% 50%",
+        "box": [
+          375,
+          812
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [
+          "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a201ef4707cb9d4bca02626_22d5b1a7d84aa2ab8c82d2b563f9df90_metric-civil-contractors-homepage-hero-outline.webp"
+        ],
+        "gradient": false,
+        "size": "cover",
+        "position": "50% 50%",
+        "box": [
+          0,
+          0
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      }
+    ],
+    "videos": [
+      {
+        "src": "https://s3.amazonaws.com/webflow-prod-assets/69cd93c94e190d89bd24bee7/6a44fac8249fe584be8390f0_METRIC.-About%20Us-Video-2025.mp4",
+        "poster": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1d1f5b0d44a99b54a15a_metric-civil-contractors-homepage-10.webp",
+        "autoplay": true,
+        "muted": true,
+        "loop": true,
+        "rendered": [
+          233,
+          131
+        ]
+      }
+    ],
+    "svgInline": 2,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 3
+  },
+  "home/band-2@375": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d0f0e65d062b2a6fea6b2_b3001d68ca095558ead2e69631740026_metric-civil-contractors-homepage-03-p-500.webp",
+        "alt": "Construction worker in a hard hat and safety vest holding a shovel at an excavation site.",
+        "natural": [
+          375,
+          364
+        ],
+        "rendered": [
+          343,
+          343
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7%2F6a966faad654143aa9f0feaf_Web%20Banner-Higher%20Standard%203_mp4.mp4",
+        "poster": "",
+        "autoplay": true,
+        "muted": true,
+        "loop": true,
+        "rendered": [
+          343,
+          343
+        ]
+      }
+    ],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 2
+  },
+  "home/band-3@375": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a5bd378d62b6ee700_metric-civil-contractors-cheam-logo.webp",
+        "alt": "cheam logo",
+        "natural": [
+          197,
+          80
+        ],
+        "rendered": [
+          131,
+          53
+        ],
+        "aspect": 2.46,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2abd358dea9a25e3e8_metric-civil-contractors-crezo-logo.webp",
+        "alt": "crezo logo",
+        "natural": [
+          137,
+          42
+        ],
+        "rendered": [
+          91,
+          28
+        ],
+        "aspect": 3.26,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2ad9dab01e909caaaf_metric-civil-contractors-fortis-logo.webp",
+        "alt": "fortis logo",
+        "natural": [
+          197,
+          42
+        ],
+        "rendered": [
+          131,
+          28
+        ],
+        "aspect": 4.69,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2ac3efbb267ad82154_metric-civil-contractors-olivit-logo.webp",
+        "alt": "olivit logo",
+        "natural": [
+          197,
+          62
+        ],
+        "rendered": [
+          131,
+          41
+        ],
+        "aspect": 3.18,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a929285f0a6c1edf0_metric-civil-contractors-surrey-schools-logo.webp",
+        "alt": "surrey schools logo",
+        "natural": [
+          197,
+          65
+        ],
+        "rendered": [
+          131,
+          43
+        ],
+        "aspect": 3.03,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a9165c2dad29b1f57_metric-civil-contractors-double-v-construction-logo.webp",
+        "alt": "double v construction logo",
+        "natural": [
+          197,
+          51
+        ],
+        "rendered": [
+          131,
+          34
+        ],
+        "aspect": 3.86,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a3cdc8575d5aebe56_metric-civil-contractors-chartwell-logo.webp",
+        "alt": "chartwell logo",
+        "natural": [
+          197,
+          51
+        ],
+        "rendered": [
+          131,
+          34
+        ],
+        "aspect": 3.86,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2aa3301b3a9de3f339_metric-civil-contractors-skowkale-logo.webp",
+        "alt": "skowkale logo",
+        "natural": [
+          162,
+          75
+        ],
+        "rendered": [
+          108,
+          50
+        ],
+        "aspect": 2.16,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2ad9dab01e909caadb_metric-civil-contractors-wsp-logo.webp",
+        "alt": "wsp logo",
+        "natural": [
+          129,
+          62
+        ],
+        "rendered": [
+          86,
+          41
+        ],
+        "aspect": 2.08,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a1a9d535903f02cae_metric-civil-contractors-kerkhoff-logo.webp",
+        "alt": "kerkhoff logo",
+        "natural": [
+          213,
+          53
+        ],
+        "rendered": [
+          142,
+          35
+        ],
+        "aspect": 4.02,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2aa8018a5104a75d5e_metric-civil-contractors-kds-logo.webp",
+        "alt": "kds logo",
+        "natural": [
+          141,
+          77
+        ],
+        "rendered": [
+          94,
+          51
+        ],
+        "aspect": 1.83,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2acb2062e811194d47_metric-civil-contractors-ram-logo.webp",
+        "alt": "ram logo",
+        "natural": [
+          117,
+          63
+        ],
+        "rendered": [
+          78,
+          42
+        ],
+        "aspect": 1.86,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2ad7faf46c89174109_metric-civil-contractors-kwaw-logo.webp",
+        "alt": "kwaw logo",
+        "natural": [
+          225,
+          83
+        ],
+        "rendered": [
+          150,
+          55
+        ],
+        "aspect": 2.71,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a5bd378d62b6ee700_metric-civil-contractors-cheam-logo.webp",
+        "alt": "cheam logo",
+        "natural": [
+          197,
+          80
+        ],
+        "rendered": [
+          131,
+          53
+        ],
+        "aspect": 2.46,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2abd358dea9a25e3e8_metric-civil-contractors-crezo-logo.webp",
+        "alt": "crezo logo",
+        "natural": [
+          137,
+          42
+        ],
+        "rendered": [
+          91,
+          28
+        ],
+        "aspect": 3.26,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2ad9dab01e909caaaf_metric-civil-contractors-fortis-logo.webp",
+        "alt": "fortis logo",
+        "natural": [
+          197,
+          42
+        ],
+        "rendered": [
+          131,
+          28
+        ],
+        "aspect": 4.69,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2ac3efbb267ad82154_metric-civil-contractors-olivit-logo.webp",
+        "alt": "olivit logo",
+        "natural": [
+          197,
+          62
+        ],
+        "rendered": [
+          131,
+          41
+        ],
+        "aspect": 3.18,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a929285f0a6c1edf0_metric-civil-contractors-surrey-schools-logo.webp",
+        "alt": "surrey schools logo",
+        "natural": [
+          197,
+          65
+        ],
+        "rendered": [
+          131,
+          43
+        ],
+        "aspect": 3.03,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a9165c2dad29b1f57_metric-civil-contractors-double-v-construction-logo.webp",
+        "alt": "double v construction logo",
+        "natural": [
+          197,
+          51
+        ],
+        "rendered": [
+          131,
+          34
+        ],
+        "aspect": 3.86,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a3cdc8575d5aebe56_metric-civil-contractors-chartwell-logo.webp",
+        "alt": "chartwell logo",
+        "natural": [
+          197,
+          51
+        ],
+        "rendered": [
+          131,
+          34
+        ],
+        "aspect": 3.86,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2aa3301b3a9de3f339_metric-civil-contractors-skowkale-logo.webp",
+        "alt": "skowkale logo",
+        "natural": [
+          162,
+          75
+        ],
+        "rendered": [
+          108,
+          50
+        ],
+        "aspect": 2.16,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2ad9dab01e909caadb_metric-civil-contractors-wsp-logo.webp",
+        "alt": "wsp logo",
+        "natural": [
+          129,
+          62
+        ],
+        "rendered": [
+          86,
+          41
+        ],
+        "aspect": 2.08,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a1a9d535903f02cae_metric-civil-contractors-kerkhoff-logo.webp",
+        "alt": "kerkhoff logo",
+        "natural": [
+          213,
+          53
+        ],
+        "rendered": [
+          142,
+          35
+        ],
+        "aspect": 4.02,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2aa8018a5104a75d5e_metric-civil-contractors-kds-logo.webp",
+        "alt": "kds logo",
+        "natural": [
+          141,
+          77
+        ],
+        "rendered": [
+          94,
+          51
+        ],
+        "aspect": 1.83,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2acb2062e811194d47_metric-civil-contractors-ram-logo.webp",
+        "alt": "ram logo",
+        "natural": [
+          117,
+          63
+        ],
+        "rendered": [
+          78,
+          42
+        ],
+        "aspect": 1.86,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2ad7faf46c89174109_metric-civil-contractors-kwaw-logo.webp",
+        "alt": "kwaw logo",
+        "natural": [
+          225,
+          83
+        ],
+        "rendered": [
+          150,
+          55
+        ],
+        "aspect": 2.71,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a5bd378d62b6ee700_metric-civil-contractors-cheam-logo.webp",
+        "alt": "cheam logo",
+        "natural": [
+          197,
+          80
+        ],
+        "rendered": [
+          131,
+          53
+        ],
+        "aspect": 2.46,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2abd358dea9a25e3e8_metric-civil-contractors-crezo-logo.webp",
+        "alt": "crezo logo",
+        "natural": [
+          137,
+          42
+        ],
+        "rendered": [
+          91,
+          28
+        ],
+        "aspect": 3.26,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2ad9dab01e909caaaf_metric-civil-contractors-fortis-logo.webp",
+        "alt": "fortis logo",
+        "natural": [
+          197,
+          42
+        ],
+        "rendered": [
+          131,
+          28
+        ],
+        "aspect": 4.69,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2ac3efbb267ad82154_metric-civil-contractors-olivit-logo.webp",
+        "alt": "olivit logo",
+        "natural": [
+          197,
+          62
+        ],
+        "rendered": [
+          131,
+          41
+        ],
+        "aspect": 3.18,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a929285f0a6c1edf0_metric-civil-contractors-surrey-schools-logo.webp",
+        "alt": "surrey schools logo",
+        "natural": [
+          197,
+          65
+        ],
+        "rendered": [
+          131,
+          43
+        ],
+        "aspect": 3.03,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a9165c2dad29b1f57_metric-civil-contractors-double-v-construction-logo.webp",
+        "alt": "double v construction logo",
+        "natural": [
+          197,
+          51
+        ],
+        "rendered": [
+          131,
+          34
+        ],
+        "aspect": 3.86,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a3cdc8575d5aebe56_metric-civil-contractors-chartwell-logo.webp",
+        "alt": "chartwell logo",
+        "natural": [
+          197,
+          51
+        ],
+        "rendered": [
+          131,
+          34
+        ],
+        "aspect": 3.86,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2aa3301b3a9de3f339_metric-civil-contractors-skowkale-logo.webp",
+        "alt": "skowkale logo",
+        "natural": [
+          162,
+          75
+        ],
+        "rendered": [
+          108,
+          50
+        ],
+        "aspect": 2.16,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2ad9dab01e909caadb_metric-civil-contractors-wsp-logo.webp",
+        "alt": "wsp logo",
+        "natural": [
+          129,
+          62
+        ],
+        "rendered": [
+          86,
+          41
+        ],
+        "aspect": 2.08,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2a1a9d535903f02cae_metric-civil-contractors-kerkhoff-logo.webp",
+        "alt": "kerkhoff logo",
+        "natural": [
+          213,
+          53
+        ],
+        "rendered": [
+          142,
+          35
+        ],
+        "aspect": 4.02,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2aa8018a5104a75d5e_metric-civil-contractors-kds-logo.webp",
+        "alt": "kds logo",
+        "natural": [
+          141,
+          77
+        ],
+        "rendered": [
+          94,
+          51
+        ],
+        "aspect": 1.83,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2acb2062e811194d47_metric-civil-contractors-ram-logo.webp",
+        "alt": "ram logo",
+        "natural": [
+          117,
+          63
+        ],
+        "rendered": [
+          78,
+          42
+        ],
+        "aspect": 1.86,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d1f2ad7faf46c89174109_metric-civil-contractors-kwaw-logo.webp",
+        "alt": "kwaw logo",
+        "natural": [
+          225,
+          83
+        ],
+        "rendered": [
+          150,
+          55
+        ],
+        "aspect": 2.71,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "home/band-4@375": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d0f64ba03ba59acab7de9_ba8c32a93ccb77e686dff80d9f191199_metric-civil-contractors-homepage-04-p-500.webp",
+        "alt": "Orange Hitachi excavator on dirt mound at a construction site under clear blue sky.",
+        "natural": [
+          375,
+          226
+        ],
+        "rendered": [
+          375,
+          642
+        ],
+        "aspect": 0.58,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          0,
+          0
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          0,
+          0
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      }
+    ],
+    "videos": [],
+    "svgInline": 4,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "home/band-5@375": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "home/band-6@375": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d0f0fa75f99c148f4314a_a8423583da4b00b0d3f1a34c5f818e2e_metric-civil-contractors-homepage-09-p-500.avif",
+        "alt": "Yellow excavator digging a large hole at a construction site with building materials and structures in background.",
+        "natural": [
+          375,
+          492
+        ],
+        "rendered": [
+          264,
+          346
+        ],
+        "aspect": 0.76,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d0f0fa75f99c148f4314a_a8423583da4b00b0d3f1a34c5f818e2e_metric-civil-contractors-homepage-09-p-500.avif",
+        "alt": "Yellow excavator digging a large hole at a construction site with building materials and structures in background.",
+        "natural": [
+          375,
+          492
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d0f0edd92b1af68111b95_a55679d07f9891f43ec271fba6209fb6_metric-civil-contractors-homepage-05-p-500.avif",
+        "alt": "Construction worker guiding a concrete structure being lowered into a trench by a crane with orange slings.",
+        "natural": [
+          375,
+          494
+        ],
+        "rendered": [
+          264,
+          346
+        ],
+        "aspect": 0.76,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d0f0fa75f99c148f4314a_a8423583da4b00b0d3f1a34c5f818e2e_metric-civil-contractors-homepage-09-p-500.avif",
+        "alt": "Yellow excavator digging a large hole at a construction site with building materials and structures in background.",
+        "natural": [
+          375,
+          492
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d0f0e850dcc5431f6dddb_e72feb9ac22c7fd47a876d1419f7e1cc_metric-civil-contractors-homepage-06-p-500.avif",
+        "alt": "Road construction with workers, excavator, loader, and a bus beside traffic cones on a sunny day.",
+        "natural": [
+          375,
+          490
+        ],
+        "rendered": [
+          264,
+          346
+        ],
+        "aspect": 0.76,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d0f0fa75f99c148f4314a_a8423583da4b00b0d3f1a34c5f818e2e_metric-civil-contractors-homepage-09-p-500.avif",
+        "alt": "Yellow excavator digging a large hole at a construction site with building materials and structures in background.",
+        "natural": [
+          375,
+          492
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d0f0e5af831be760e9446_596b2817cec1d45033f75a47b2536603_metric-civil-contractors-homepage-07-p-500.avif",
+        "alt": "Construction worker operating a yellow excavator on muddy ground with trees in the background.",
+        "natural": [
+          375,
+          492
+        ],
+        "rendered": [
+          264,
+          346
+        ],
+        "aspect": 0.76,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d0f0fa75f99c148f4314a_a8423583da4b00b0d3f1a34c5f818e2e_metric-civil-contractors-homepage-09-p-500.avif",
+        "alt": "Yellow excavator digging a large hole at a construction site with building materials and structures in background.",
+        "natural": [
+          375,
+          492
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 2,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 8
+  },
+  "home/band-7@375": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d0f63a3301b3a9de0b179_f0ff6ce40e3830096360c52ddc14d8ec_metric-civil-contractors-homepage-08-p-500.webp",
+        "alt": "Aerial view of a construction site with several buildings surrounded by dirt and forested areas.",
+        "natural": [
+          375,
+          204
+        ],
+        "rendered": [
+          343,
+          239
+        ],
+        "aspect": 1.44,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 2,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "home/band-8@375": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a45d524b85541162d5cef45_Project-1345%20SJPII%2071-Photo-20240716-p-500.webp",
+        "alt": "Saint John Paul II Academy ",
+        "natural": [
+          375,
+          281
+        ],
+        "rendered": [
+          311,
+          272
+        ],
+        "aspect": 1.14,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3263b792dd1853f5b78b15_metric-civil-contractors-project-12-p-500.avif",
+        "alt": "UFV Student Housing",
+        "natural": [
+          375,
+          151
+        ],
+        "rendered": [
+          311,
+          272
+        ],
+        "aspect": 1.14,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3264c9a7441a14f8006460_metric-civil-contractors-project-13-p-500.avif",
+        "alt": "Bailey Landfill Expansion",
+        "natural": [
+          375,
+          152
+        ],
+        "rendered": [
+          311,
+          272
+        ],
+        "aspect": 1.14,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a45d524b85541162d5cef45_Project-1345%20SJPII%2071-Photo-20240716-p-500.webp",
+        "alt": "Saint John Paul II Academy ",
+        "natural": [
+          375,
+          281
+        ],
+        "rendered": [
+          375,
+          1060
+        ],
+        "aspect": 0.35,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a4d601e080e21403121de55_Project-1614%20Buntzen%20Access%20Rd%2033-Photo-20240925.webp",
+        "alt": "Buntzen PUMA Access Rd",
+        "natural": [
+          375,
+          250
+        ],
+        "rendered": [
+          375,
+          1060
+        ],
+        "aspect": 0.35,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3263b792dd1853f5b78b15_metric-civil-contractors-project-12-p-500.avif",
+        "alt": "UFV Student Housing",
+        "natural": [
+          375,
+          151
+        ],
+        "rendered": [
+          375,
+          1060
+        ],
+        "aspect": 0.35,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3264c9a7441a14f8006460_metric-civil-contractors-project-13-p-500.avif",
+        "alt": "Bailey Landfill Expansion",
+        "natural": [
+          375,
+          152
+        ],
+        "rendered": [
+          375,
+          1060
+        ],
+        "aspect": 0.35,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3263161170f6f903b04a78_metric-civil-contractors-project-10.avif",
+        "alt": "Kitselas Community Centre",
+        "natural": [
+          375,
+          152
+        ],
+        "rendered": [
+          375,
+          1060
+        ],
+        "aspect": 0.35,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7%2F6a3525ffbee39509ab41649c_1614%20Buntzen%20Access%20Rd-Rainy%20Day%20SloMo-Reel-20241029_mp4.mp4",
+        "poster": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a4d601e080e21403121de55_Project-1614%20Buntzen%20Access%20Rd%2033-Photo-20240925.webp",
+        "autoplay": false,
+        "muted": true,
+        "loop": true,
+        "rendered": [
+          311,
+          272
+        ]
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7%2F6a353051f80feaee003437c9_1314%20Kitselas%20Community%20Centre-Manhole%20Install-Reel-20240702_mp4.mp4",
+        "poster": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3263161170f6f903b04a78_metric-civil-contractors-project-10.avif",
+        "autoplay": false,
+        "muted": true,
+        "loop": true,
+        "rendered": [
+          311,
+          272
+        ]
+      }
+    ],
+    "svgInline": 30,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 10
+  },
+  "home/band-9@375": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "home/band-10@375": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [
+      {
+        "src": "https://s3.amazonaws.com/webflow-prod-assets/69cd93c94e190d89bd24bee7/6a1ee0da07adfee3041e45df_Mix%20Projects-Lance's%20Story-Reel-20240702.mp4",
+        "poster": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d547de0fef66e3f6f1052_metric-civil-contractors-homepage-17.webp",
+        "autoplay": false,
+        "muted": true,
+        "loop": true,
+        "rendered": [
+          270,
+          404
+        ]
+      },
+      {
+        "src": "https://s3.amazonaws.com/webflow-prod-assets/69cd93c94e190d89bd24bee7/6a1ee13ceefe2dab0ef06d5d_Mix%20Projects-METRIC.%20Culture-Reel-20240906.mp4",
+        "poster": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d547dcda862b74fbe5e63_metric-civil-contractors-homepage-15.webp",
+        "autoplay": false,
+        "muted": true,
+        "loop": true,
+        "rendered": [
+          249,
+          373
+        ]
+      },
+      {
+        "src": "https://s3.amazonaws.com/webflow-prod-assets/69cd93c94e190d89bd24bee7/6a1ee1a01b97a5ca09a15683_Mix%20Projects-Company%20Growth-Reel-20240906.mp4",
+        "poster": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d547d2052cf8eab31059e_metric-civil-contractors-homepage-16.webp",
+        "autoplay": false,
+        "muted": true,
+        "loop": true,
+        "rendered": [
+          231,
+          347
+        ]
+      }
+    ],
+    "svgInline": 8,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 3
+  },
+  "home/band-11@375": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a1d72ec8450be2c710db05c_metric-civil-contractors-homepage-16-p-500.webp",
+        "alt": "Aerial view of a residential construction site with machinery, new houses, and a large apartment building.",
+        "natural": [
+          375,
+          269
+        ],
+        "rendered": [
+          375,
+          1083
+        ],
+        "aspect": 0.35,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          375,
+          678
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          375,
+          678
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      }
+    ],
+    "videos": [],
+    "svgInline": 4,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "about/band-1@1440": {
+    "images": [],
+    "backgrounds": [
+      {
+        "urls": [
+          "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7%2F6a2276ae4c1db29a8ad7d0bf_Misc-Web%20Banner_poster.0000000.jpg"
+        ],
+        "gradient": false,
+        "size": "cover",
+        "position": "50% 50%",
+        "box": [
+          1440,
+          900
+        ],
+        "tag": "video",
+        "logoSuspect": false
+      }
+    ],
+    "videos": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7%2F6a2276ae4c1db29a8ad7d0bf_Misc-Web%20Banner_mp4.mp4",
+        "poster": "",
+        "autoplay": true,
+        "muted": true,
+        "loop": true,
+        "rendered": [
+          1440,
+          900
+        ]
+      }
+    ],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 2
+  },
+  "about/band-2@1440": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a227bf81ebd72967e7cc8b1_metric-civil-contractors-about-1.webp",
+        "alt": "Group of construction workers wearing hard hats and safety vests at a fenced site.",
+        "natural": [
+          1440,
+          941
+        ],
+        "rendered": [
+          665,
+          434
+        ],
+        "aspect": 1.53,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 2,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "about/band-3@1440": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a227bf8adfa6ed3717b9ca0_metric-civil-contractors-about-2.webp",
+        "alt": "Hand resting on a technical blueprint with construction plans and annotations.",
+        "natural": [
+          1342,
+          873
+        ],
+        "rendered": [
+          899,
+          584
+        ],
+        "aspect": 1.54,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a30f2e4fff2363e337a1f61_metric-civil-contractors-about-6.webp",
+        "alt": "Three construction workers wearing hard hats and safety vests discuss work at a construction site.",
+        "natural": [
+          1341,
+          870
+        ],
+        "rendered": [
+          899,
+          584
+        ],
+        "aspect": 1.54,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a30f2e4a63e446cc18cd7ee_metric-civil-contractors-about-7.webp",
+        "alt": "Two construction workers operating an excavator behind a large pile of dirt on site.",
+        "natural": [
+          1342,
+          869
+        ],
+        "rendered": [
+          899,
+          584
+        ],
+        "aspect": 1.54,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a30f2e4c6c210dba507da8f_metric-civil-contractors-about-8.webp",
+        "alt": "Construction worker in safety vest and helmet working on large pipe in a gravel-lined trench.",
+        "natural": [
+          1341,
+          870
+        ],
+        "rendered": [
+          899,
+          584
+        ],
+        "aspect": 1.54,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a30f38a9b36f179726bdce6_metric-civil-contractors-about-9.webp",
+        "alt": "Construction worker with helmet, safety vest, and gloves on site using a phone and safety harness.",
+        "natural": [
+          1342,
+          870
+        ],
+        "rendered": [
+          899,
+          584
+        ],
+        "aspect": 1.54,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          899,
+          584
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          899,
+          584
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          899,
+          584
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          899,
+          584
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          899,
+          584
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          899,
+          584
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          899,
+          584
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          899,
+          584
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          899,
+          584
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          899,
+          584
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      }
+    ],
+    "videos": [],
+    "svgInline": 8,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 5
+  },
+  "about/band-4@1440": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "about/band-5@1440": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a191f5e664ebf977712d318_metric-civil-MARLON-HALL.avif",
+        "alt": "Marlon Hall",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          290,
+          290
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a191fb041368805d131719d_metric-civil-CHRIS-VEENSTRA.avif",
+        "alt": "Chris Veenstra",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          290,
+          290
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a191fda1ef50c7624daf10a_metric-civil-KARENA-CONRAD.avif",
+        "alt": "Karena Conrad",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          290,
+          290
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a192667debf5ef93c681a28_metric-civil-JEFF-HUTT.avif",
+        "alt": "Jeff Hutt",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          290,
+          290
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a1926fc018ef702f36e5d8d_metric-civil-ADAM-HILL.avif",
+        "alt": "Adam Hill",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          290,
+          290
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a19272cda2c4575cb75ed5f_metric-civil-LESLEY-FERRIER.avif",
+        "alt": "Lesley Ferrier",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          290,
+          290
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a19275eeeccb22ae31690eb_metric-civil-SHEI-LAING.avif",
+        "alt": "Shei Laing",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          290,
+          290
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a1927859170e9a39f959f11_metric-civil-SURUCHI-SHARMA.avif",
+        "alt": "Suruchi Sharma",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          290,
+          290
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a1927bff1bbd4795f5ca9c3_metric-civil-AARON-NUGENT.avif",
+        "alt": "Aaron Nugent",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          290,
+          290
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a1927eb61facbefc5eaf523_metric-civil-DEENA-TROLLAND.avif",
+        "alt": "Deena Trolland",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          290,
+          290
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a192844c09615aa854f8a52_metric-civil-JIM-CONLEY.avif",
+        "alt": "Jim Conley",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          290,
+          290
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a1928bef1bbd4795f5d061e_metric-civil-RYAN-PETKAU.avif",
+        "alt": "Ryan Petkau",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          290,
+          290
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a1928ed6c0dc2b32f1fb351_metric-civil-KRISTINA-LAMB.avif",
+        "alt": "Kristina Lamb",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          290,
+          290
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a19290d10b0c76d466b46d0_metric-civil-JOSH-VEENSTRA.avif",
+        "alt": "Josh Veenstra",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          290,
+          290
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a19292f80d46fc269e6b06c_metric-civil-VANESSA-COUTTS.avif",
+        "alt": "Vanessa Coutts",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          290,
+          290
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a192954b13b5bf33b3765e3_metric-civil-SAIF-SAIFUZZAMAN.avif",
+        "alt": "Saif Saifuzzaman",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          290,
+          290
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a19299951d287b8843ec265_metric-civil-BRITTANY-BELL.avif",
+        "alt": "Brittany Bell",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          290,
+          290
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a9a615bd5bbe33f509873ea_Lance%20Cochrane%20Portrait.avif",
+        "alt": "Lance Cochrane",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          290,
+          290
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg",
+        "alt": "Jessica Buell",
+        "natural": [
+          0,
+          0
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg",
+        "alt": "Anthony Besse",
+        "natural": [
+          0,
+          0
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg",
+        "alt": "Mike Hill",
+        "natural": [
+          0,
+          0
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 21,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 21
+  },
+  "about/band-6@1440": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a227c204e6a680c64460eec_a9ce0d38f6e9dcecba6f0d13011e5cd4_metric-civil-contractors-we-go-logo.webp",
+        "alt": "we go logo",
+        "natural": [
+          108,
+          152
+        ],
+        "rendered": [
+          72,
+          101
+        ],
+        "aspect": 0.71,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a227c2064fc687481f70783_9833ac91648ab3c0e5b4828255d15198_metric-civil-contractors-mustangs-logo.webp",
+        "alt": "mustangs logo",
+        "natural": [
+          162,
+          129
+        ],
+        "rendered": [
+          108,
+          86
+        ],
+        "aspect": 1.26,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a227c204c1db29a8adaa0a3_a1d4137cf630cdd7a4f652042c8b136b_metric-civil-contractors-sardis-logo.webp",
+        "alt": "sardis logo",
+        "natural": [
+          114,
+          162
+        ],
+        "rendered": [
+          76,
+          108
+        ],
+        "aspect": 0.7,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a227c20d63f5b84d997ff5f_a2ed9754e9de9bf61b24ef45135b445a_metric-civil-contractors-rebels-logo.webp",
+        "alt": "rebels logo",
+        "natural": [
+          153,
+          132
+        ],
+        "rendered": [
+          102,
+          88
+        ],
+        "aspect": 1.16,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a227c202ccc697c69e88820_c6a48732397fc2bba16998b2868a09b2_metric-civil-contractors-boots-for-kids-logo.webp",
+        "alt": "boots for kids logo",
+        "natural": [
+          198,
+          155
+        ],
+        "rendered": [
+          132,
+          103
+        ],
+        "aspect": 1.28,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a227c20c7c89a7211592039_2c612927d010fcaae999575dc2009e57_metric-civil-contractors-bowls-of-hope-logo.webp",
+        "alt": "bowls of hope logo",
+        "natural": [
+          174,
+          150
+        ],
+        "rendered": [
+          116,
+          100
+        ],
+        "aspect": 1.16,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a41f6bc7c33c1f2b0b19402_metric-civil-contractors-chwk-community-services.avif",
+        "alt": "chwk community services logo",
+        "natural": [
+          210,
+          56
+        ],
+        "rendered": [
+          140,
+          37
+        ],
+        "aspect": 3.78,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a41f6bc9358ae598d8cd55b_metric-civil-contractors-bears%27-lair-dream-camps.avif",
+        "alt": "bears' lair dream camps logo",
+        "natural": [
+          210,
+          50
+        ],
+        "rendered": [
+          140,
+          33
+        ],
+        "aspect": 4.24,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a41f6bcab34901277d62e60_metric-civil-contractors-the-salvation-army.avif",
+        "alt": "the salvation army logo",
+        "natural": [
+          198,
+          98
+        ],
+        "rendered": [
+          132,
+          65
+        ],
+        "aspect": 2.03,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a41f6bc9358ae598d8cd558_metric-civil-contractors-cmfa.avif",
+        "alt": "cmfa logo",
+        "natural": [
+          90,
+          90
+        ],
+        "rendered": [
+          60,
+          60
+        ],
+        "aspect": 1,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a41f6bc6291ea31207a152c_metric-civil-contractors-starfish-pack.avif",
+        "alt": "starfish pack logo",
+        "natural": [
+          198,
+          98
+        ],
+        "rendered": [
+          132,
+          65
+        ],
+        "aspect": 2.03,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [
+      {
+        "src": "https://s3.amazonaws.com/webflow-prod-assets/69cd93c94e190d89bd24bee7/6a229d2ee95e76471736d90b_Misc-It's%20a%20Collective-Reel-20241029.mp4",
+        "poster": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a227bf7a2e65512ebeb4310_metric-civil-contractors-about-4.webp",
+        "autoplay": false,
+        "muted": true,
+        "loop": true,
+        "rendered": [
+          437,
+          619
+        ]
+      },
+      {
+        "src": "https://s3.amazonaws.com/webflow-prod-assets/69cd93c94e190d89bd24bee7/6a41f00f8e81cace88657f56_Community%20Work-Bowls%20of%20Hope-Reel-20260625.mp4",
+        "poster": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a227bf7a2e65512ebeb4310_metric-civil-contractors-about-4.webp",
+        "autoplay": false,
+        "muted": true,
+        "loop": true,
+        "rendered": [
+          437,
+          619
+        ]
+      }
+    ],
+    "svgInline": 8,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 2
+  },
+  "about/band-7@1440": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a227bfaf803aff532245829_metric-civil-contractors-about-3-p-1600.webp",
+        "alt": "Worker in brown pants and boots shoveling gravel or dirt at a construction site.",
+        "natural": [
+          1440,
+          1031
+        ],
+        "rendered": [
+          1440,
+          1039
+        ],
+        "aspect": 1.39,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          1440,
+          671
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          1440,
+          671
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      }
+    ],
+    "videos": [],
+    "svgInline": 4,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "about/band-1@375": {
+    "images": [],
+    "backgrounds": [
+      {
+        "urls": [
+          "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7%2F6a2276ae4c1db29a8ad7d0bf_Misc-Web%20Banner_poster.0000000.jpg"
+        ],
+        "gradient": false,
+        "size": "cover",
+        "position": "50% 50%",
+        "box": [
+          375,
+          812
+        ],
+        "tag": "video",
+        "logoSuspect": false
+      }
+    ],
+    "videos": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7%2F6a2276ae4c1db29a8ad7d0bf_Misc-Web%20Banner_mp4.mp4",
+        "poster": "",
+        "autoplay": true,
+        "muted": true,
+        "loop": true,
+        "rendered": [
+          375,
+          812
+        ]
+      }
+    ],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 2
+  },
+  "about/band-2@375": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a227bf81ebd72967e7cc8b1_metric-civil-contractors-about-1-p-500.webp",
+        "alt": "Group of construction workers wearing hard hats and safety vests at a fenced site.",
+        "natural": [
+          375,
+          245
+        ],
+        "rendered": [
+          343,
+          224
+        ],
+        "aspect": 1.53,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 2,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "about/band-3@375": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a227bf8adfa6ed3717b9ca0_metric-civil-contractors-about-2-p-500.webp",
+        "alt": "Hand resting on a technical blueprint with construction plans and annotations.",
+        "natural": [
+          375,
+          243
+        ],
+        "rendered": [
+          329,
+          467
+        ],
+        "aspect": 0.7,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a30f2e4fff2363e337a1f61_metric-civil-contractors-about-6-p-500.webp",
+        "alt": "Three construction workers wearing hard hats and safety vests discuss work at a construction site.",
+        "natural": [
+          375,
+          243
+        ],
+        "rendered": [
+          329,
+          467
+        ],
+        "aspect": 0.7,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a30f2e4a63e446cc18cd7ee_metric-civil-contractors-about-7-p-500.webp",
+        "alt": "Two construction workers operating an excavator behind a large pile of dirt on site.",
+        "natural": [
+          375,
+          243
+        ],
+        "rendered": [
+          329,
+          467
+        ],
+        "aspect": 0.7,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a30f2e4c6c210dba507da8f_metric-civil-contractors-about-8.webp",
+        "alt": "Construction worker in safety vest and helmet working on large pipe in a gravel-lined trench.",
+        "natural": [
+          0,
+          0
+        ],
+        "rendered": [
+          329,
+          467
+        ],
+        "aspect": 0.7,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a30f38a9b36f179726bdce6_metric-civil-contractors-about-9.webp",
+        "alt": "Construction worker with helmet, safety vest, and gloves on site using a phone and safety harness.",
+        "natural": [
+          0,
+          0
+        ],
+        "rendered": [
+          329,
+          467
+        ],
+        "aspect": 0.7,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          329,
+          467
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          329,
+          467
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          329,
+          467
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          329,
+          467
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          329,
+          467
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          329,
+          467
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          329,
+          467
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          329,
+          467
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          329,
+          467
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          329,
+          467
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      }
+    ],
+    "videos": [],
+    "svgInline": 8,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 5
+  },
+  "about/band-4@375": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "about/band-5@375": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a191f5e664ebf977712d318_metric-civil-MARLON-HALL.avif",
+        "alt": "Marlon Hall",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          317,
+          317
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a191fb041368805d131719d_metric-civil-CHRIS-VEENSTRA.avif",
+        "alt": "Chris Veenstra",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          317,
+          317
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a191fda1ef50c7624daf10a_metric-civil-KARENA-CONRAD.avif",
+        "alt": "Karena Conrad",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          317,
+          317
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a192667debf5ef93c681a28_metric-civil-JEFF-HUTT.avif",
+        "alt": "Jeff Hutt",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          317,
+          317
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a1926fc018ef702f36e5d8d_metric-civil-ADAM-HILL.avif",
+        "alt": "Adam Hill",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          317,
+          317
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a19272cda2c4575cb75ed5f_metric-civil-LESLEY-FERRIER.avif",
+        "alt": "Lesley Ferrier",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          317,
+          317
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a19275eeeccb22ae31690eb_metric-civil-SHEI-LAING.avif",
+        "alt": "Shei Laing",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          317,
+          317
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a1927859170e9a39f959f11_metric-civil-SURUCHI-SHARMA.avif",
+        "alt": "Suruchi Sharma",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          317,
+          317
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a1927bff1bbd4795f5ca9c3_metric-civil-AARON-NUGENT.avif",
+        "alt": "Aaron Nugent",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          317,
+          317
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a1927eb61facbefc5eaf523_metric-civil-DEENA-TROLLAND.avif",
+        "alt": "Deena Trolland",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          317,
+          317
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a192844c09615aa854f8a52_metric-civil-JIM-CONLEY.avif",
+        "alt": "Jim Conley",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          317,
+          317
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a1928bef1bbd4795f5d061e_metric-civil-RYAN-PETKAU.avif",
+        "alt": "Ryan Petkau",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          317,
+          317
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a1928ed6c0dc2b32f1fb351_metric-civil-KRISTINA-LAMB.avif",
+        "alt": "Kristina Lamb",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          317,
+          317
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a19290d10b0c76d466b46d0_metric-civil-JOSH-VEENSTRA.avif",
+        "alt": "Josh Veenstra",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          317,
+          317
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a19292f80d46fc269e6b06c_metric-civil-VANESSA-COUTTS.avif",
+        "alt": "Vanessa Coutts",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          317,
+          317
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a192954b13b5bf33b3765e3_metric-civil-SAIF-SAIFUZZAMAN.avif",
+        "alt": "Saif Saifuzzaman",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          317,
+          317
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a19299951d287b8843ec265_metric-civil-BRITTANY-BELL.avif",
+        "alt": "Brittany Bell",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          317,
+          317
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a9a615bd5bbe33f509873ea_Lance%20Cochrane%20Portrait.avif",
+        "alt": "Lance Cochrane",
+        "natural": [
+          435,
+          435
+        ],
+        "rendered": [
+          317,
+          317
+        ],
+        "aspect": 1,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg",
+        "alt": "Jessica Buell",
+        "natural": [
+          0,
+          0
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg",
+        "alt": "Anthony Besse",
+        "natural": [
+          0,
+          0
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg",
+        "alt": "Mike Hill",
+        "natural": [
+          0,
+          0
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 21,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 21
+  },
+  "about/band-6@375": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a227c204e6a680c64460eec_a9ce0d38f6e9dcecba6f0d13011e5cd4_metric-civil-contractors-we-go-logo.webp",
+        "alt": "we go logo",
+        "natural": [
+          108,
+          152
+        ],
+        "rendered": [
+          72,
+          101
+        ],
+        "aspect": 0.71,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a227c2064fc687481f70783_9833ac91648ab3c0e5b4828255d15198_metric-civil-contractors-mustangs-logo.webp",
+        "alt": "mustangs logo",
+        "natural": [
+          162,
+          129
+        ],
+        "rendered": [
+          108,
+          86
+        ],
+        "aspect": 1.26,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a227c204c1db29a8adaa0a3_a1d4137cf630cdd7a4f652042c8b136b_metric-civil-contractors-sardis-logo.webp",
+        "alt": "sardis logo",
+        "natural": [
+          114,
+          162
+        ],
+        "rendered": [
+          76,
+          108
+        ],
+        "aspect": 0.7,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a227c20d63f5b84d997ff5f_a2ed9754e9de9bf61b24ef45135b445a_metric-civil-contractors-rebels-logo.webp",
+        "alt": "rebels logo",
+        "natural": [
+          153,
+          132
+        ],
+        "rendered": [
+          102,
+          88
+        ],
+        "aspect": 1.16,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a227c202ccc697c69e88820_c6a48732397fc2bba16998b2868a09b2_metric-civil-contractors-boots-for-kids-logo.webp",
+        "alt": "boots for kids logo",
+        "natural": [
+          198,
+          155
+        ],
+        "rendered": [
+          132,
+          103
+        ],
+        "aspect": 1.28,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a227c20c7c89a7211592039_2c612927d010fcaae999575dc2009e57_metric-civil-contractors-bowls-of-hope-logo.webp",
+        "alt": "bowls of hope logo",
+        "natural": [
+          174,
+          150
+        ],
+        "rendered": [
+          116,
+          100
+        ],
+        "aspect": 1.16,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a41f6bc7c33c1f2b0b19402_metric-civil-contractors-chwk-community-services.avif",
+        "alt": "chwk community services logo",
+        "natural": [
+          210,
+          56
+        ],
+        "rendered": [
+          140,
+          80
+        ],
+        "aspect": 1.75,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a41f6bc9358ae598d8cd55b_metric-civil-contractors-bears%27-lair-dream-camps.avif",
+        "alt": "bears' lair dream camps logo",
+        "natural": [
+          210,
+          50
+        ],
+        "rendered": [
+          140,
+          80
+        ],
+        "aspect": 1.75,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a41f6bcab34901277d62e60_metric-civil-contractors-the-salvation-army.avif",
+        "alt": "the salvation army logo",
+        "natural": [
+          198,
+          98
+        ],
+        "rendered": [
+          132,
+          96
+        ],
+        "aspect": 1.38,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a41f6bc9358ae598d8cd558_metric-civil-contractors-cmfa.avif",
+        "alt": "cmfa logo",
+        "natural": [
+          90,
+          90
+        ],
+        "rendered": [
+          60,
+          60
+        ],
+        "aspect": 1,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a41f6bc6291ea31207a152c_metric-civil-contractors-starfish-pack.avif",
+        "alt": "starfish pack logo",
+        "natural": [
+          198,
+          98
+        ],
+        "rendered": [
+          132,
+          96
+        ],
+        "aspect": 1.38,
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": true,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [
+      {
+        "src": "https://s3.amazonaws.com/webflow-prod-assets/69cd93c94e190d89bd24bee7/6a229d2ee95e76471736d90b_Misc-It's%20a%20Collective-Reel-20241029.mp4",
+        "poster": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a227bf7a2e65512ebeb4310_metric-civil-contractors-about-4.webp",
+        "autoplay": false,
+        "muted": true,
+        "loop": true,
+        "rendered": [
+          343,
+          514
+        ]
+      },
+      {
+        "src": "https://s3.amazonaws.com/webflow-prod-assets/69cd93c94e190d89bd24bee7/6a41f00f8e81cace88657f56_Community%20Work-Bowls%20of%20Hope-Reel-20260625.mp4",
+        "poster": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a227bf7a2e65512ebeb4310_metric-civil-contractors-about-4.webp",
+        "autoplay": false,
+        "muted": true,
+        "loop": true,
+        "rendered": [
+          343,
+          515
+        ]
+      }
+    ],
+    "svgInline": 8,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 2
+  },
+  "about/band-7@375": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a227bfaf803aff532245829_metric-civil-contractors-about-3-p-500.webp",
+        "alt": "Worker in brown pants and boots shoveling gravel or dirt at a construction site.",
+        "natural": [
+          375,
+          268
+        ],
+        "rendered": [
+          375,
+          1083
+        ],
+        "aspect": 0.35,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          375,
+          678
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          375,
+          678
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      }
+    ],
+    "videos": [],
+    "svgInline": 4,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "services/band-1@1440": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a3380fda2d420bf4c92d166_metric-civil-contractors-services-1-p-1600.avif",
+        "alt": "Yellow Liebherr bulldozer moving a large pile of dirt at a construction site near residential buildings.",
+        "natural": [
+          1440,
+          797
+        ],
+        "rendered": [
+          1440,
+          900
+        ],
+        "aspect": 1.6,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "services/band-2@1440": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a3380fcb47ab7b3080ce879_metric-civil-contractors-services-2-p-500.avif",
+        "alt": "Aerial view of a yellow excavator digging in brown soil on a construction site.",
+        "natural": [
+          473,
+          448
+        ],
+        "rendered": [
+          633,
+          600
+        ],
+        "aspect": 1.06,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a3380fc84637db7d0e38dae_metric-civil-contractors-services-3.avif",
+        "alt": "Construction workers operating an orange excavator and concrete mixer on a site with mountains in the background.",
+        "natural": [
+          0,
+          0
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a3380fcff3cd64e6d453d9f_metric-civil-contractors-services-4.avif",
+        "alt": "Construction workers operate an orange Hitachi excavator moving gravel on a roadwork site.",
+        "natural": [
+          0,
+          0
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a3380fdfab558fa86580088_metric-civil-contractors-services-5.avif",
+        "alt": "Construction workers and machines dumping gravel on a road at dusk near a forested area.",
+        "natural": [
+          0,
+          0
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a3380fca8add156dfecf292_metric-civil-contractors-services-6.avif",
+        "alt": "Excavator clearing logs and debris from a shallow forest river with rocky bed.",
+        "natural": [
+          0,
+          0
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 10,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 5
+  },
+  "services/band-3@1440": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "services/band-1@375": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a3380fda2d420bf4c92d166_metric-civil-contractors-services-1-p-500.avif",
+        "alt": "Yellow Liebherr bulldozer moving a large pile of dirt at a construction site near residential buildings.",
+        "natural": [
+          375,
+          207
+        ],
+        "rendered": [
+          375,
+          812
+        ],
+        "aspect": 0.46,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "services/band-2@375": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a3380fcb47ab7b3080ce879_metric-civil-contractors-services-2-p-500.avif",
+        "alt": "Aerial view of a yellow excavator digging in brown soil on a construction site.",
+        "natural": [
+          375,
+          355
+        ],
+        "rendered": [
+          343,
+          325
+        ],
+        "aspect": 1.05,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a3380fc84637db7d0e38dae_metric-civil-contractors-services-3.avif",
+        "alt": "Construction workers operating an orange excavator and concrete mixer on a site with mountains in the background.",
+        "natural": [
+          0,
+          0
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a3380fcff3cd64e6d453d9f_metric-civil-contractors-services-4.avif",
+        "alt": "Construction workers operate an orange Hitachi excavator moving gravel on a roadwork site.",
+        "natural": [
+          0,
+          0
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a3380fdfab558fa86580088_metric-civil-contractors-services-5.avif",
+        "alt": "Construction workers and machines dumping gravel on a road at dusk near a forested area.",
+        "natural": [
+          0,
+          0
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a3380fca8add156dfecf292_metric-civil-contractors-services-6.avif",
+        "alt": "Excavator clearing logs and debris from a shallow forest river with rocky bed.",
+        "natural": [
+          0,
+          0
+        ],
+        "rendered": [
+          0,
+          0
+        ],
+        "aspect": null,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 10,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 5
+  },
+  "services/band-3@375": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 0,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "projects/band-1@1440": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a29047512962bfbdce91340_metric-civil-contractors-projects-01.avif",
+        "alt": "Confident construction worker with beard wearing hard hat and safety vest at a worksite with machinery.",
+        "natural": [
+          1440,
+          797
+        ],
+        "rendered": [
+          1440,
+          900
+        ],
+        "aspect": 1.6,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 4,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "projects/band-2@1440": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a45d524b85541162d5cef45_Project-1345%20SJPII%2071-Photo-20240716-p-1600.webp",
+        "alt": "Saint John Paul II Academy ",
+        "natural": [
+          1440,
+          1080
+        ],
+        "rendered": [
+          668,
+          552
+        ],
+        "aspect": 1.21,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a4d601e080e21403121de55_Project-1614%20Buntzen%20Access%20Rd%2033-Photo-20240925-p-1600.webp",
+        "alt": "Buntzen PUMA Access Rd",
+        "natural": [
+          1440,
+          960
+        ],
+        "rendered": [
+          668,
+          552
+        ],
+        "aspect": 1.21,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3263b792dd1853f5b78b15_metric-civil-contractors-project-12-p-1600.avif",
+        "alt": "UFV Student Housing",
+        "natural": [
+          1440,
+          580
+        ],
+        "rendered": [
+          668,
+          552
+        ],
+        "aspect": 1.21,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3264c9a7441a14f8006460_metric-civil-contractors-project-13-p-1600.avif",
+        "alt": "Bailey Landfill Expansion",
+        "natural": [
+          1440,
+          584
+        ],
+        "rendered": [
+          668,
+          552
+        ],
+        "aspect": 1.21,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3263161170f6f903b04a78_metric-civil-contractors-project-10-p-1600.avif",
+        "alt": "Kitselas Community Centre",
+        "natural": [
+          1440,
+          584
+        ],
+        "rendered": [
+          668,
+          552
+        ],
+        "aspect": 1.21,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          668,
+          552
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          668,
+          552
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          668,
+          552
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          668,
+          552
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          668,
+          552
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      }
+    ],
+    "videos": [],
+    "svgInline": 14,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 5
+  },
+  "projects/band-3@1440": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a45d524b85541162d5cef45_Project-1345%20SJPII%2071-Photo-20240716-p-1600.webp",
+        "alt": "Saint John Paul II Academy ",
+        "natural": [
+          1440,
+          1080
+        ],
+        "rendered": [
+          207,
+          116
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a4d601e080e21403121de55_Project-1614%20Buntzen%20Access%20Rd%2033-Photo-20240925-p-1600.webp",
+        "alt": "Buntzen PUMA Access Rd",
+        "natural": [
+          1440,
+          960
+        ],
+        "rendered": [
+          207,
+          116
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3263b792dd1853f5b78b15_metric-civil-contractors-project-12-p-1600.avif",
+        "alt": "UFV Student Housing",
+        "natural": [
+          1440,
+          580
+        ],
+        "rendered": [
+          207,
+          116
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3264c9a7441a14f8006460_metric-civil-contractors-project-13-p-1600.avif",
+        "alt": "Bailey Landfill Expansion",
+        "natural": [
+          1440,
+          584
+        ],
+        "rendered": [
+          207,
+          116
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3263161170f6f903b04a78_metric-civil-contractors-project-10-p-1600.avif",
+        "alt": "Kitselas Community Centre",
+        "natural": [
+          1440,
+          584
+        ],
+        "rendered": [
+          207,
+          116
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3e8415ca4554e120cc147b_metric-civil-contractors-project-1492%20Fruiticana%2040.avif",
+        "alt": "Fruiticana",
+        "natural": [
+          1440,
+          809
+        ],
+        "rendered": [
+          207,
+          116
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3e8408f54be228d672b2a1_metric-civil-contractors-project-1232%20Alsco.avif",
+        "alt": "Alsco Surrey",
+        "natural": [
+          1440,
+          809
+        ],
+        "rendered": [
+          207,
+          116
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3e83fafd9fb035e2848f7d_metric-civil-contractors-project-1241%20Astria.avif",
+        "alt": "Link 200",
+        "natural": [
+          1440,
+          809
+        ],
+        "rendered": [
+          207,
+          116
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3e83e9c36fa3bf1b320198_metric-civil-contractors-project-228%20Lustre.avif",
+        "alt": "Lustre Products",
+        "natural": [
+          1440,
+          809
+        ],
+        "rendered": [
+          207,
+          116
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3e83dc090e41d688331ad1_metric-civil-contractors-project-1205%20Hicks%20Lake%20Bridge.avif",
+        "alt": "Hicks Lake Bridge",
+        "natural": [
+          1440,
+          809
+        ],
+        "rendered": [
+          207,
+          116
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3e83cd77b586b00e9ad952_metric-civil-contractors-project-277%20South%20Albion%20Elem.avif",
+        "alt": "C’usqunela Elementary School",
+        "natural": [
+          1440,
+          809
+        ],
+        "rendered": [
+          207,
+          116
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3e83bba18c549ff461cd3d_metric-civil-contractors-project-1094%20Vista%20Greens.avif",
+        "alt": "Vista Greens",
+        "natural": [
+          1440,
+          809
+        ],
+        "rendered": [
+          207,
+          116
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3e83aedc2726e67fe44cf6_metric-civil-contractors-project-1280%20Kitselas%20Housing.avif",
+        "alt": "Kitselas Housing Development",
+        "natural": [
+          1440,
+          809
+        ],
+        "rendered": [
+          207,
+          116
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3e839edf7319cefd1b0274_metric-civil-contractors-project-1797%20Tahtlan%20Drainage%20Improvements.avif",
+        "alt": "Tahltan Drainage Improvements",
+        "natural": [
+          1440,
+          809
+        ],
+        "rendered": [
+          207,
+          116
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3e838e41f7f42632ad9774_metric-civil-contractors-project-1605%20Haisla%20Town%20Centre.avif",
+        "alt": "Haisla Town Centre Road Extension",
+        "natural": [
+          1440,
+          809
+        ],
+        "rendered": [
+          207,
+          116
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3e838046e7aa5225ca28c8_metric-civil-contractors-project-1456%20Sts%27ailes%20Health%20Centre.avif",
+        "alt": "Éyameth’ Health Centre",
+        "natural": [
+          1440,
+          809
+        ],
+        "rendered": [
+          207,
+          116
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 32,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 16
+  },
+  "projects/band-4@1440": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a2904750db7b131995b8ae7_cf1cd524904a1c6cb8945268d840353b_metric-civil-contractors-projects-02-p-1600.avif",
+        "alt": "Construction worker in safety gear, orange gloves, and helmet at a site with ladder and chains.",
+        "natural": [
+          1440,
+          1029
+        ],
+        "rendered": [
+          1440,
+          1039
+        ],
+        "aspect": 1.39,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          1440,
+          671
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          1440,
+          671
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      }
+    ],
+    "videos": [],
+    "svgInline": 4,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "projects/band-1@375": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a29047512962bfbdce91340_metric-civil-contractors-projects-01-p-500.avif",
+        "alt": "Confident construction worker with beard wearing hard hat and safety vest at a worksite with machinery.",
+        "natural": [
+          375,
+          207
+        ],
+        "rendered": [
+          375,
+          812
+        ],
+        "aspect": 0.46,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 4,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "projects/band-2@375": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a45d524b85541162d5cef45_Project-1345%20SJPII%2071-Photo-20240716-p-500.webp",
+        "alt": "Saint John Paul II Academy ",
+        "natural": [
+          375,
+          281
+        ],
+        "rendered": [
+          343,
+          414
+        ],
+        "aspect": 0.83,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a4d601e080e21403121de55_Project-1614%20Buntzen%20Access%20Rd%2033-Photo-20240925-p-500.webp",
+        "alt": "Buntzen PUMA Access Rd",
+        "natural": [
+          375,
+          249
+        ],
+        "rendered": [
+          343,
+          414
+        ],
+        "aspect": 0.83,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3263b792dd1853f5b78b15_metric-civil-contractors-project-12-p-500.avif",
+        "alt": "UFV Student Housing",
+        "natural": [
+          375,
+          151
+        ],
+        "rendered": [
+          343,
+          414
+        ],
+        "aspect": 0.83,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3264c9a7441a14f8006460_metric-civil-contractors-project-13-p-500.avif",
+        "alt": "Bailey Landfill Expansion",
+        "natural": [
+          375,
+          152
+        ],
+        "rendered": [
+          343,
+          414
+        ],
+        "aspect": 0.83,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3263161170f6f903b04a78_metric-civil-contractors-project-10-p-500.avif",
+        "alt": "Kitselas Community Centre",
+        "natural": [
+          375,
+          152
+        ],
+        "rendered": [
+          343,
+          414
+        ],
+        "aspect": 0.83,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          343,
+          414
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          343,
+          414
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          343,
+          414
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          343,
+          414
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          343,
+          414
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      }
+    ],
+    "videos": [],
+    "svgInline": 14,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 5
+  },
+  "projects/band-3@375": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a45d524b85541162d5cef45_Project-1345%20SJPII%2071-Photo-20240716-p-500.webp",
+        "alt": "Saint John Paul II Academy ",
+        "natural": [
+          375,
+          281
+        ],
+        "rendered": [
+          109,
+          61
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a4d601e080e21403121de55_Project-1614%20Buntzen%20Access%20Rd%2033-Photo-20240925-p-500.webp",
+        "alt": "Buntzen PUMA Access Rd",
+        "natural": [
+          375,
+          249
+        ],
+        "rendered": [
+          109,
+          61
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3263b792dd1853f5b78b15_metric-civil-contractors-project-12-p-500.avif",
+        "alt": "UFV Student Housing",
+        "natural": [
+          375,
+          151
+        ],
+        "rendered": [
+          109,
+          61
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3264c9a7441a14f8006460_metric-civil-contractors-project-13-p-500.avif",
+        "alt": "Bailey Landfill Expansion",
+        "natural": [
+          375,
+          152
+        ],
+        "rendered": [
+          109,
+          61
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3263161170f6f903b04a78_metric-civil-contractors-project-10-p-500.avif",
+        "alt": "Kitselas Community Centre",
+        "natural": [
+          375,
+          152
+        ],
+        "rendered": [
+          109,
+          61
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3e8415ca4554e120cc147b_metric-civil-contractors-project-1492%20Fruiticana%2040-p-500.avif",
+        "alt": "Fruiticana",
+        "natural": [
+          375,
+          210
+        ],
+        "rendered": [
+          109,
+          61
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3e8408f54be228d672b2a1_metric-civil-contractors-project-1232%20Alsco-p-500.avif",
+        "alt": "Alsco Surrey",
+        "natural": [
+          375,
+          210
+        ],
+        "rendered": [
+          109,
+          61
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3e83fafd9fb035e2848f7d_metric-civil-contractors-project-1241%20Astria-p-500.avif",
+        "alt": "Link 200",
+        "natural": [
+          375,
+          210
+        ],
+        "rendered": [
+          109,
+          61
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3e83e9c36fa3bf1b320198_metric-civil-contractors-project-228%20Lustre-p-500.avif",
+        "alt": "Lustre Products",
+        "natural": [
+          375,
+          210
+        ],
+        "rendered": [
+          109,
+          61
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3e83dc090e41d688331ad1_metric-civil-contractors-project-1205%20Hicks%20Lake%20Bridge-p-500.avif",
+        "alt": "Hicks Lake Bridge",
+        "natural": [
+          375,
+          210
+        ],
+        "rendered": [
+          109,
+          61
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3e83cd77b586b00e9ad952_metric-civil-contractors-project-277%20South%20Albion%20Elem-p-500.avif",
+        "alt": "C’usqunela Elementary School",
+        "natural": [
+          375,
+          210
+        ],
+        "rendered": [
+          109,
+          61
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3e83bba18c549ff461cd3d_metric-civil-contractors-project-1094%20Vista%20Greens-p-500.avif",
+        "alt": "Vista Greens",
+        "natural": [
+          375,
+          210
+        ],
+        "rendered": [
+          109,
+          61
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3e83aedc2726e67fe44cf6_metric-civil-contractors-project-1280%20Kitselas%20Housing-p-500.avif",
+        "alt": "Kitselas Housing Development",
+        "natural": [
+          375,
+          210
+        ],
+        "rendered": [
+          109,
+          61
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3e839edf7319cefd1b0274_metric-civil-contractors-project-1797%20Tahtlan%20Drainage%20Improvements-p-500.avif",
+        "alt": "Tahltan Drainage Improvements",
+        "natural": [
+          375,
+          210
+        ],
+        "rendered": [
+          109,
+          61
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3e838e41f7f42632ad9774_metric-civil-contractors-project-1605%20Haisla%20Town%20Centre-p-500.avif",
+        "alt": "Haisla Town Centre Road Extension",
+        "natural": [
+          375,
+          210
+        ],
+        "rendered": [
+          109,
+          61
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      },
+      {
+        "src": "https://cdn.prod.website-files.com/6a18f9916de372b2489be0bc/6a3e838046e7aa5225ca28c8_metric-civil-contractors-project-1456%20Sts%27ailes%20Health%20Centre-p-500.avif",
+        "alt": "Éyameth’ Health Centre",
+        "natural": [
+          375,
+          210
+        ],
+        "rendered": [
+          109,
+          61
+        ],
+        "aspect": 1.78,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 32,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 16
+  },
+  "projects/band-4@375": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a2904750db7b131995b8ae7_cf1cd524904a1c6cb8945268d840353b_metric-civil-contractors-projects-02-p-500.avif",
+        "alt": "Construction worker in safety gear, orange gloves, and helmet at a site with ladder and chains.",
+        "natural": [
+          375,
+          268
+        ],
+        "rendered": [
+          375,
+          1083
+        ],
+        "aspect": 0.35,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          375,
+          678
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      },
+      {
+        "urls": [],
+        "gradient": true,
+        "size": "auto",
+        "position": "0% 0%",
+        "box": [
+          375,
+          678
+        ],
+        "tag": "div",
+        "logoSuspect": false
+      }
+    ],
+    "videos": [],
+    "svgInline": 4,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 1
+  },
+  "contact/band-1@1440": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a334a65ee011d33d1383663_metric-civil-contractors-contact-1-p-1600.avif",
+        "alt": "Yellow hydraulic excavator with mud on bucket working on construction site at sunrise or sunset.",
+        "natural": [
+          1440,
+          1801
+        ],
+        "rendered": [
+          1440,
+          1461
+        ],
+        "aspect": 0.99,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [
+      {
+        "urls": [
+          "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a3357a57adf93ba85e4330d_keyboard_arrow_down.svg"
+        ],
+        "gradient": false,
+        "size": "30px 30px",
+        "position": "98% 50%",
+        "box": [
+          768,
+          48
+        ],
+        "tag": "select",
+        "logoSuspect": false
+      }
+    ],
+    "videos": [],
+    "svgInline": 3,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 2
+  },
+  "contact/band-2@1440": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 2,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  },
+  "contact/band-1@375": {
+    "images": [
+      {
+        "src": "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a334a65ee011d33d1383663_metric-civil-contractors-contact-1-p-500.avif",
+        "alt": "Yellow hydraulic excavator with mud on bucket working on construction site at sunrise or sunset.",
+        "natural": [
+          375,
+          469
+        ],
+        "rendered": [
+          375,
+          1532
+        ],
+        "aspect": 0.24,
+        "objectFit": "cover",
+        "position": "static",
+        "zIndex": "auto",
+        "logoSuspect": false,
+        "inPicture": false
+      }
+    ],
+    "backgrounds": [
+      {
+        "urls": [
+          "https://cdn.prod.website-files.com/69cd93c94e190d89bd24bee7/6a3357a57adf93ba85e4330d_keyboard_arrow_down.svg"
+        ],
+        "gradient": false,
+        "size": "24px 24px",
+        "position": "98% 50%",
+        "box": [
+          295,
+          48
+        ],
+        "tag": "select",
+        "logoSuspect": false
+      }
+    ],
+    "videos": [],
+    "svgInline": 3,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 2
+  },
+  "contact/band-2@375": {
+    "images": [],
+    "backgrounds": [],
+    "videos": [],
+    "svgInline": 2,
+    "svgLarge": 0,
+    "canvas": 0,
+    "iframeHosts": [],
+    "layers": 0
+  }
+}

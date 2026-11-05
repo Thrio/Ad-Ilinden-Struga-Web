@@ -17,6 +17,11 @@
           "src": "/images/home-hero.jpg",
           "alt": "Градежен локалитет на дневна светлина"
         }
+      },
+      {
+        "_type": "intro",
+        "heading": "Градежништво со внимание кон деталот",
+        "body": "Од семејни објекти до деловни простори — прецизна изведба, јасни рокови и трајни завршница низ Струга и регионот."
       }
     ]
   },
@@ -38,6 +43,11 @@
           "src": "/images/home-hero.jpg",
           "alt": "Construction site in daylight"
         }
+      },
+      {
+        "_type": "intro",
+        "heading": "Construction built to last",
+        "body": "From homes to commercial builds, we deliver precise construction, clear timelines, and durable finishes across Struga and the region."
       }
     ]
   },
@@ -48,7 +58,12 @@
     "title": "About",
     "seo": {
       "title": "About — AD Ilinden Struga",
-      "description": "About AD Ilinden Struga, a construction company in Struga, North Macedonia."
+      "description": "AD Ilinden Struga е градежна компанија со седиште во Струга, Северна Македонија."
+    },
+    "stub": {
+      "lead": "AD Ilinden Struga е градежна компанија со седиште во Струга, Северна Македонија.",
+      "paragraph": "Работиме со фокус на квалитетна изведба, јасни договори и професионален однос кон секој клиент.",
+      "note": "Повеќе содржина за оваа страница ќе биде објавена наскоро."
     },
     "sections": []
   },
@@ -61,6 +76,11 @@
       "title": "About — AD Ilinden Struga",
       "description": "About AD Ilinden Struga, a construction company in Struga, North Macedonia."
     },
+    "stub": {
+      "lead": "About AD Ilinden Struga, a construction company in Struga, North Macedonia.",
+      "paragraph": "We focus on dependable delivery, clear agreements, and professional communication on every project.",
+      "note": "More content for this page will be published soon."
+    },
     "sections": []
   },
   {
@@ -70,7 +90,12 @@
     "title": "Services",
     "seo": {
       "title": "Services — AD Ilinden Struga",
-      "description": "Services from AD Ilinden Struga in Struga, North Macedonia."
+      "description": "Градежни услуги од AD Ilinden Struga во Струга и регионот."
+    },
+    "stub": {
+      "lead": "Градежни услуги од AD Ilinden Struga во Струга и регионот.",
+      "paragraph": "Овде ќе најдете преглед на нашите услуги — од градежни работи до завршни обработки.",
+      "note": "Детални описи ќе бидат дополнети наскоро."
     },
     "sections": []
   },
@@ -82,6 +107,11 @@
     "seo": {
       "title": "Services — AD Ilinden Struga",
       "description": "Services from AD Ilinden Struga in Struga, North Macedonia."
+    },
+    "stub": {
+      "lead": "Services from AD Ilinden Struga in Struga, North Macedonia.",
+      "paragraph": "This page will outline our construction services, from structural work through to finishing.",
+      "note": "Detailed service descriptions will be added soon."
     },
     "sections": []
   },
@@ -92,7 +122,12 @@
     "title": "Projects",
     "seo": {
       "title": "Projects — AD Ilinden Struga",
-      "description": "Work by AD Ilinden Struga in Struga, North Macedonia."
+      "description": "Преглед на градежната работа на AD Ilinden Struga во Струга и регионот."
+    },
+    "stub": {
+      "lead": "Преглед на градежната работа на AD Ilinden Struga во Струга и регионот.",
+      "paragraph": "Избрани проекти и фотографии од нашата работа ќе бидат претставени на оваа страница.",
+      "note": "Галеријата и описите ќе бидат објавени наскоро."
     },
     "sections": []
   },
@@ -105,6 +140,11 @@
       "title": "Projects — AD Ilinden Struga",
       "description": "Work by AD Ilinden Struga in Struga, North Macedonia."
     },
+    "stub": {
+      "lead": "Work by AD Ilinden Struga in Struga, North Macedonia.",
+      "paragraph": "Selected projects and photos from our work will be featured on this page.",
+      "note": "The project gallery and descriptions will be published soon."
+    },
     "sections": []
   },
   {
@@ -114,7 +154,11 @@
     "title": "Contact",
     "seo": {
       "title": "Contact — AD Ilinden Struga",
-      "description": "Call, email, or write to AD Ilinden Struga in Struga, North Macedonia."
+      "description": "Стапете во контакт со AD Ilinden Struga во Струга, Северна Македонија."
+    },
+    "stub": {
+      "lead": "Стапете во контакт со AD Ilinden Struga — телефон, е-пошта или форма подолу.",
+      "paragraph": "Ќе ви одговориме што е можно поскоро. За итни прашања, најбрзо е директно на телефон."
     },
     "sections": []
   },
@@ -127,6 +171,10 @@
       "title": "Contact — AD Ilinden Struga",
       "description": "Call, email, or write to AD Ilinden Struga in Struga, North Macedonia."
     },
+    "stub": {
+      "lead": "Get in touch with AD Ilinden Struga by phone, email, or the form below.",
+      "paragraph": "We will reply as soon as we can. For urgent questions, calling us directly is fastest."
+    },
     "sections": []
   },
   {
@@ -136,7 +184,12 @@
     "title": "Privacy",
     "seo": {
       "title": "Privacy — AD Ilinden Struga",
-      "description": "Privacy policy for AD Ilinden Struga."
+      "description": "Политика на приватност за AD Ilinden Struga."
+    },
+    "stub": {
+      "lead": "Политика на приватност за AD Ilinden Struga.",
+      "paragraph": "Ги чуваме само информациите потребни за одговор на вашите барања и не ги споделуваме без основа.",
+      "note": "Целосен текст на политиката ќе биде објавен наскоро."
     },
     "sections": []
   },
@@ -148,6 +201,11 @@
     "seo": {
       "title": "Privacy — AD Ilinden Struga",
       "description": "Privacy policy for AD Ilinden Struga."
+    },
+    "stub": {
+      "lead": "Privacy policy for AD Ilinden Struga.",
+      "paragraph": "We keep only the information needed to respond to your requests and do not share it without good reason.",
+      "note": "The full policy text will be published soon."
     },
     "sections": []
   }

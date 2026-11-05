@@ -1,0 +1,479 @@
+{
+  "home@1440": {
+    "bands": {
+      "1": {
+        "role": "scrub/parallax",
+        "evidence": "child 0: moves 679, 91, 180, 336, 384px inside the band while scrolling"
+      },
+      "2": {
+        "role": "reveal",
+        "evidence": "child 0: opacity 0 → 1"
+      },
+      "3": {
+        "role": "none",
+        "evidence": "no opacity, transform, clip or position change while scrolling"
+      },
+      "4": {
+        "role": "reveal",
+        "evidence": "child 0: opacity 0 → 1"
+      },
+      "5": {
+        "role": "sticky/pin",
+        "evidence": "child 1 held at 40px while the page scrolled 265px"
+      },
+      "6": {
+        "role": "scrub/parallax",
+        "evidence": "child 5: moves -56, -56px inside the band while scrolling"
+      },
+      "7": {
+        "role": "reveal",
+        "evidence": "child 0: opacity 0 → 1"
+      },
+      "8": {
+        "role": "reveal",
+        "evidence": "child 0: opacity 0 → 1"
+      },
+      "9": {
+        "role": "scrub/parallax",
+        "evidence": "child 0: moves -37, -19px inside the band while scrolling"
+      },
+      "10": {
+        "role": "reveal",
+        "evidence": "child 0: opacity 0 → 1"
+      }
+    },
+    "header": {
+      "notes": [
+        "stays pinned while scrolling"
+      ],
+      "top": {
+        "top": 0,
+        "height": 104,
+        "position": "fixed",
+        "background": "rgba(255, 255, 255, 0)",
+        "backdrop": "none",
+        "shadow": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "opacity": 0.9955,
+        "color": "rgb(29, 29, 29)",
+        "scrollY": 2252
+      },
+      "scrolled": {
+        "top": 0,
+        "height": 104,
+        "position": "fixed",
+        "background": "rgba(255, 255, 255, 0)",
+        "backdrop": "none",
+        "shadow": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "opacity": 0,
+        "color": "rgb(29, 29, 29)",
+        "scrollY": 886
+      },
+      "scrolledUp": {
+        "top": -240,
+        "height": 104,
+        "position": "fixed",
+        "background": "rgba(255, 255, 255, 0)",
+        "backdrop": "none",
+        "shadow": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, -240)",
+        "opacity": 0,
+        "color": "rgb(29, 29, 29)",
+        "scrollY": 597
+      }
+    },
+    "hover": [],
+    "menu": null,
+    "timeDriven": [],
+    "clickCandidates": {
+      "4": 4
+    },
+    "filmstrip": 41
+  },
+  "home@375": {
+    "bands": {
+      "1": {
+        "role": "none",
+        "evidence": "no opacity, transform, clip or position change while scrolling"
+      },
+      "2": {
+        "role": "scrub/parallax",
+        "evidence": "child 0: moves -47, -9px inside the band while scrolling"
+      },
+      "3": {
+        "role": "reveal",
+        "evidence": "child 1: opacity 0 → 1"
+      },
+      "4": {
+        "role": "reveal",
+        "evidence": "child 0: opacity 0 → 1"
+      },
+      "5": {
+        "role": "none",
+        "evidence": "no opacity, transform, clip or position change while scrolling"
+      },
+      "6": {
+        "role": "none",
+        "evidence": "no opacity, transform, clip or position change while scrolling"
+      },
+      "7": {
+        "role": "scrub/parallax",
+        "evidence": "child 2: moves -56, -56px inside the band while scrolling"
+      },
+      "8": {
+        "role": "scrub/parallax",
+        "evidence": "child 0: moves -49, -7px inside the band while scrolling"
+      },
+      "9": {
+        "role": "reveal",
+        "evidence": "child 0: opacity 0 → 1"
+      },
+      "10": {
+        "role": "scrub/parallax",
+        "evidence": "child 0: moves -37, -19px inside the band while scrolling"
+      },
+      "11": {
+        "role": "reveal",
+        "evidence": "child 0: opacity 0 → 1"
+      }
+    },
+    "header": {
+      "notes": [
+        "hides on scroll down",
+        "comes back on scroll up"
+      ],
+      "top": {
+        "top": 0,
+        "height": 59,
+        "position": "fixed",
+        "background": "rgba(255, 255, 255, 0)",
+        "backdrop": "none",
+        "shadow": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "opacity": 1,
+        "color": "rgb(29, 29, 29)",
+        "scrollY": 3026
+      },
+      "scrolled": {
+        "top": -240,
+        "height": 59,
+        "position": "fixed",
+        "background": "rgba(255, 255, 255, 0)",
+        "backdrop": "none",
+        "shadow": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, -240)",
+        "opacity": 1,
+        "color": "rgb(29, 29, 29)",
+        "scrollY": 885
+      },
+      "scrolledUp": {
+        "top": 0,
+        "height": 59,
+        "position": "fixed",
+        "background": "rgba(255, 255, 255, 0)",
+        "backdrop": "none",
+        "shadow": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "opacity": 1,
+        "color": "rgb(29, 29, 29)",
+        "scrollY": 597
+      }
+    },
+    "hover": [],
+    "menu": {
+      "label": "menu menu-button w-nav-button",
+      "opened": [
+        {
+          "tag": "div",
+          "cls": "w-nav-overlay",
+          "coverPct": 93,
+          "transition": "0s ease",
+          "backdrop": "none",
+          "clipPath": "none"
+        },
+        {
+          "tag": "nav",
+          "cls": "nav-menu w-variant-50276db6-4bff-6aa3-21f8-ff5ca3cfc626 w-nav-menu",
+          "coverPct": 93,
+          "transition": "0s, 0.6s ease, ease",
+          "backdrop": "none",
+          "clipPath": "none"
+        }
+      ]
+    },
+    "timeDriven": [],
+    "clickCandidates": {
+      "4": 4
+    },
+    "filmstrip": 48
+  },
+  "about@1440": {
+    "bands": {
+      "1": {
+        "role": "none",
+        "evidence": "no opacity, transform, clip or position change while scrolling"
+      },
+      "2": {
+        "role": "reveal",
+        "evidence": "child 0: opacity 0 → 1"
+      },
+      "3": {
+        "role": "sticky/pin",
+        "evidence": "child 1 held at 104px while the page scrolled 271px"
+      },
+      "4": {
+        "role": "reveal",
+        "evidence": "child 0: opacity 0 → 1"
+      },
+      "5": {
+        "role": "reveal",
+        "evidence": "child 0: opacity 0 → 1"
+      },
+      "6": {
+        "role": "scrub/parallax",
+        "evidence": "child 0: moves -18, -94px inside the band while scrolling"
+      },
+      "7": {
+        "role": "reveal",
+        "evidence": "child 0: opacity 0 → 1"
+      }
+    },
+    "header": {
+      "notes": [
+        "stays pinned while scrolling"
+      ],
+      "top": {
+        "top": 0,
+        "height": 104,
+        "position": "fixed",
+        "background": "rgba(255, 255, 255, 0)",
+        "backdrop": "none",
+        "shadow": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "opacity": 1,
+        "color": "rgb(29, 29, 29)",
+        "scrollY": 3714
+      },
+      "scrolled": {
+        "top": 0,
+        "height": 104,
+        "position": "fixed",
+        "background": "rgba(255, 255, 255, 0)",
+        "backdrop": "none",
+        "shadow": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "opacity": 1,
+        "color": "rgb(29, 29, 29)",
+        "scrollY": 888
+      },
+      "scrolledUp": {
+        "top": -240,
+        "height": 104,
+        "position": "fixed",
+        "background": "rgba(255, 255, 255, 0)",
+        "backdrop": "none",
+        "shadow": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, -240)",
+        "opacity": 1,
+        "color": "rgb(29, 29, 29)",
+        "scrollY": 596
+      }
+    },
+    "hover": [],
+    "menu": null,
+    "timeDriven": [],
+    "clickCandidates": {},
+    "filmstrip": 47
+  },
+  "services@1440": {
+    "bands": {
+      "1": {
+        "role": "none",
+        "evidence": "no opacity, transform, clip or position change while scrolling"
+      },
+      "2": {
+        "role": "scrub/parallax",
+        "evidence": "child 0: moves -46, -10px inside the band while scrolling"
+      },
+      "3": {
+        "role": "scrub/parallax",
+        "evidence": "child 0: moves -47, -9px inside the band while scrolling"
+      }
+    },
+    "header": {
+      "notes": [
+        "hides on scroll down",
+        "comes back on scroll up"
+      ],
+      "top": {
+        "top": 0,
+        "height": 104,
+        "position": "fixed",
+        "background": "rgba(255, 255, 255, 0)",
+        "backdrop": "none",
+        "shadow": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "opacity": 1,
+        "color": "rgb(29, 29, 29)",
+        "scrollY": 0
+      },
+      "scrolled": {
+        "top": -240,
+        "height": 104,
+        "position": "fixed",
+        "background": "rgba(255, 255, 255, 0)",
+        "backdrop": "none",
+        "shadow": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, -240)",
+        "opacity": 1,
+        "color": "rgb(29, 29, 29)",
+        "scrollY": 912
+      },
+      "scrolledUp": {
+        "top": -42,
+        "height": 104,
+        "position": "fixed",
+        "background": "rgba(255, 255, 255, 0)",
+        "backdrop": "none",
+        "shadow": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, -42.0145)",
+        "opacity": 1,
+        "color": "rgb(29, 29, 29)",
+        "scrollY": 596
+      }
+    },
+    "hover": [],
+    "menu": null,
+    "timeDriven": [],
+    "clickCandidates": {
+      "2": 8
+    },
+    "filmstrip": 28
+  },
+  "projects@1440": {
+    "bands": {
+      "1": {
+        "role": "none",
+        "evidence": "no opacity, transform, clip or position change while scrolling"
+      },
+      "2": {
+        "role": "reveal",
+        "evidence": "child 0: opacity 0 → 1"
+      },
+      "3": {
+        "role": "reveal",
+        "evidence": "child 0: opacity 0 → 1"
+      },
+      "4": {
+        "role": "reveal",
+        "evidence": "child 0: opacity 0 → 1"
+      }
+    },
+    "header": {
+      "notes": [
+        "hides on scroll down",
+        "comes back on scroll up"
+      ],
+      "top": {
+        "top": 0,
+        "height": 104,
+        "position": "fixed",
+        "background": "rgba(255, 255, 255, 0)",
+        "backdrop": "none",
+        "shadow": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "opacity": 1,
+        "color": "rgb(29, 29, 29)",
+        "scrollY": 0
+      },
+      "scrolled": {
+        "top": -240,
+        "height": 104,
+        "position": "fixed",
+        "background": "rgba(255, 255, 255, 0)",
+        "backdrop": "none",
+        "shadow": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, -240)",
+        "opacity": 1,
+        "color": "rgb(29, 29, 29)",
+        "scrollY": 912
+      },
+      "scrolledUp": {
+        "top": 0,
+        "height": 104,
+        "position": "fixed",
+        "background": "rgba(255, 255, 255, 0)",
+        "backdrop": "none",
+        "shadow": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "opacity": 1,
+        "color": "rgb(29, 29, 29)",
+        "scrollY": 482
+      }
+    },
+    "hover": [],
+    "menu": null,
+    "timeDriven": [],
+    "clickCandidates": {},
+    "filmstrip": 24
+  },
+  "contact@1440": {
+    "bands": {
+      "1": {
+        "role": "none",
+        "evidence": "no opacity, transform, clip or position change while scrolling"
+      },
+      "2": {
+        "role": "reveal",
+        "evidence": "child 0: opacity 0 → 1"
+      }
+    },
+    "header": {
+      "notes": [
+        "stays pinned while scrolling"
+      ],
+      "top": {
+        "top": 0,
+        "height": 104,
+        "position": "fixed",
+        "background": "rgba(255, 255, 255, 0)",
+        "backdrop": "none",
+        "shadow": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "opacity": 1,
+        "color": "rgb(29, 29, 29)",
+        "scrollY": 0
+      },
+      "scrolled": {
+        "top": 0,
+        "height": 104,
+        "position": "fixed",
+        "background": "rgba(255, 255, 255, 0)",
+        "backdrop": "none",
+        "shadow": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "opacity": 1,
+        "color": "rgb(29, 29, 29)",
+        "scrollY": 900
+      },
+      "scrolledUp": {
+        "top": -37,
+        "height": 104,
+        "position": "fixed",
+        "background": "rgba(255, 255, 255, 0)",
+        "backdrop": "none",
+        "shadow": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, -37.164)",
+        "opacity": 1,
+        "color": "rgb(29, 29, 29)",
+        "scrollY": 598
+      }
+    },
+    "hover": [],
+    "menu": null,
+    "timeDriven": [],
+    "clickCandidates": {},
+    "filmstrip": 10
+  }
+}

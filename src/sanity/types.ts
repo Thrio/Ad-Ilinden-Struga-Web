@@ -3,6 +3,13 @@ export type Seo = {
   description: string;
 };
 
+/** Short presentational copy for pages not fully built yet. */
+export type PageStub = {
+  lead: string;
+  paragraph: string;
+  note?: string;
+};
+
 export type SiteSettings = {
   name: string;
   phone: string;
@@ -22,11 +29,18 @@ export type HeroBlock = {
   image: { src: string; alt: string };
 };
 
+export type IntroBlock = {
+  _type: "intro";
+  heading: string;
+  body: string;
+};
+
 export type PageDocument = {
   language: "mk" | "en";
   slug: string;
   path: string;
   title: string;
   seo: Seo;
-  sections: Array<HeroBlock | { _type: string }>;
+  stub?: PageStub;
+  sections: Array<HeroBlock | IntroBlock | { _type: string }>;
 };

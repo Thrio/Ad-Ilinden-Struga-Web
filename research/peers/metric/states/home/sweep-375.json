@@ -1,0 +1,369 @@
+{
+  "note": "one viewport frame per scroll step; open them in order to see scroll-driven motion (lesson 13)",
+  "frames": [
+    {
+      "frame": "001",
+      "scrollY": 0,
+      "bandsOnScreen": [
+        "1"
+      ]
+    },
+    {
+      "frame": "002",
+      "scrollY": 327,
+      "bandsOnScreen": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "frame": "003",
+      "scrollY": 474,
+      "bandsOnScreen": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "frame": "004",
+      "scrollY": 734,
+      "bandsOnScreen": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "frame": "005",
+      "scrollY": 979,
+      "bandsOnScreen": [
+        "2"
+      ]
+    },
+    {
+      "frame": "006",
+      "scrollY": 1199,
+      "bandsOnScreen": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "frame": "007",
+      "scrollY": 1466,
+      "bandsOnScreen": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "frame": "008",
+      "scrollY": 1711,
+      "bandsOnScreen": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "frame": "009",
+      "scrollY": 1930,
+      "bandsOnScreen": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "frame": "010",
+      "scrollY": 2198,
+      "bandsOnScreen": [
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "frame": "011",
+      "scrollY": 2443,
+      "bandsOnScreen": [
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "frame": "012",
+      "scrollY": 2665,
+      "bandsOnScreen": [
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "frame": "013",
+      "scrollY": 2930,
+      "bandsOnScreen": [
+        "5",
+        "6"
+      ]
+    },
+    {
+      "frame": "014",
+      "scrollY": 3174,
+      "bandsOnScreen": [
+        "6"
+      ]
+    },
+    {
+      "frame": "015",
+      "scrollY": 3419,
+      "bandsOnScreen": [
+        "6"
+      ]
+    },
+    {
+      "frame": "016",
+      "scrollY": 3662,
+      "bandsOnScreen": [
+        "6"
+      ]
+    },
+    {
+      "frame": "017",
+      "scrollY": 3906,
+      "bandsOnScreen": [
+        "6"
+      ]
+    },
+    {
+      "frame": "018",
+      "scrollY": 4150,
+      "bandsOnScreen": [
+        "6"
+      ]
+    },
+    {
+      "frame": "019",
+      "scrollY": 4393,
+      "bandsOnScreen": [
+        "6"
+      ]
+    },
+    {
+      "frame": "020",
+      "scrollY": 4639,
+      "bandsOnScreen": [
+        "6"
+      ]
+    },
+    {
+      "frame": "021",
+      "scrollY": 4860,
+      "bandsOnScreen": [
+        "6"
+      ]
+    },
+    {
+      "frame": "022",
+      "scrollY": 5126,
+      "bandsOnScreen": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "frame": "023",
+      "scrollY": 5371,
+      "bandsOnScreen": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "frame": "024",
+      "scrollY": 5614,
+      "bandsOnScreen": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "frame": "025",
+      "scrollY": 5932,
+      "bandsOnScreen": [
+        "7"
+      ]
+    },
+    {
+      "frame": "026",
+      "scrollY": 6163,
+      "bandsOnScreen": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "frame": "027",
+      "scrollY": 6406,
+      "bandsOnScreen": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "frame": "028",
+      "scrollY": 6650,
+      "bandsOnScreen": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "frame": "029",
+      "scrollY": 6818,
+      "bandsOnScreen": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "frame": "030",
+      "scrollY": 7078,
+      "bandsOnScreen": [
+        "8"
+      ]
+    },
+    {
+      "frame": "031",
+      "scrollY": 7323,
+      "bandsOnScreen": [
+        "8",
+        "9"
+      ]
+    },
+    {
+      "frame": "032",
+      "scrollY": 7566,
+      "bandsOnScreen": [
+        "8",
+        "9"
+      ]
+    },
+    {
+      "frame": "033",
+      "scrollY": 7810,
+      "bandsOnScreen": [
+        "8",
+        "9"
+      ]
+    },
+    {
+      "frame": "034",
+      "scrollY": 8141,
+      "bandsOnScreen": [
+        "9",
+        "10"
+      ]
+    },
+    {
+      "frame": "035",
+      "scrollY": 8348,
+      "bandsOnScreen": [
+        "9",
+        "10"
+      ]
+    },
+    {
+      "frame": "036",
+      "scrollY": 8524,
+      "bandsOnScreen": [
+        "9",
+        "10"
+      ]
+    },
+    {
+      "frame": "037",
+      "scrollY": 8873,
+      "bandsOnScreen": [
+        "10"
+      ]
+    },
+    {
+      "frame": "038",
+      "scrollY": 9013,
+      "bandsOnScreen": [
+        "10",
+        "11"
+      ]
+    },
+    {
+      "frame": "039",
+      "scrollY": 9251,
+      "bandsOnScreen": [
+        "10",
+        "11"
+      ]
+    },
+    {
+      "frame": "040",
+      "scrollY": 9495,
+      "bandsOnScreen": [
+        "10",
+        "11"
+      ]
+    },
+    {
+      "frame": "041",
+      "scrollY": 9762,
+      "bandsOnScreen": [
+        "10",
+        "11"
+      ]
+    },
+    {
+      "frame": "042",
+      "scrollY": 9984,
+      "bandsOnScreen": [
+        "11"
+      ]
+    },
+    {
+      "frame": "043",
+      "scrollY": 10251,
+      "bandsOnScreen": [
+        "11"
+      ]
+    },
+    {
+      "frame": "044",
+      "scrollY": 10473,
+      "bandsOnScreen": [
+        "11"
+      ]
+    },
+    {
+      "frame": "045",
+      "scrollY": 10833,
+      "bandsOnScreen": [
+        "11"
+      ]
+    },
+    {
+      "frame": "046",
+      "scrollY": 10971,
+      "bandsOnScreen": []
+    },
+    {
+      "frame": "047",
+      "scrollY": 11202,
+      "bandsOnScreen": []
+    },
+    {
+      "frame": "048",
+      "scrollY": 11465,
+      "bandsOnScreen": []
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diagonal 3D scroll gallery — GSAP ScrollTrigger</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --stage-h: max(32rem, 100svh);
+      --track-h: calc(var(--stage-h) * 4);
+      --rail-bottom: 5rem;
+    }
+    .gallery-stage {
+      perspective: 1400px;
+      perspective-origin: 50% 42%;
+    }
+    .gallery-plate {
+      transform-style: preserve-3d;
+      will-change: transform, width, opacity;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .gallery-track { height: auto !important; }
+      .gallery-stage { position: relative !important; }
+      .gallery-plate { visibility: hidden !important; }
+      .gallery-plate:last-child {
+        visibility: visible !important;
+        left: 50% !important;
+        width: min(88vw, 50rem) !important;
+        aspect-ratio: 0.68 !important;
+        opacity: 1 !important;
+        transform: translateX(-50%) !important;
+      }
+    }
+  </style>
+</head>
+<body class="bg-stone-100 text-stone-900 antialiased">
+  <header class="mx-auto max-w-3xl px-6 py-10 text-center">
+    <p class="text-xs font-semibold uppercase tracking-[0.2em] text-stone-500">Scroll demo</p>
+    <h1 class="mt-2 font-serif text-3xl font-semibold tracking-tight md:text-4xl">Diagonal perspective gallery</h1>
+    <p class="mt-3 text-stone-600">Scroll down. Each photo rides a slanted path: tiny at the bottom → full size at center → tiny fade at the top. Animation is scrubbed to scroll position.</p>
+  </header>
+
+  <section class="gallery" aria-label="Image sequence">
+    <div class="gallery-track relative" style="height: var(--track-h);">
+      <div class="gallery-stage sticky top-0 overflow-hidden bg-stone-100" style="height: var(--stage-h);">
+        <div
+          class="gallery-plate absolute overflow-hidden rounded-lg border border-stone-300/80 bg-stone-200 shadow-lg"
+          style="bottom: var(--rail-bottom);"
+          data-index="0"
+        >
+          <img class="block h-full w-full object-cover" src="https://picsum.photos/seed/adilinden-seq-1/800/1180" alt="" width="800" height="1180" draggable="false">
+        </div>
+        <div
+          class="gallery-plate absolute overflow-hidden rounded-lg border border-stone-300/80 bg-stone-200 shadow-lg"
+          style="bottom: var(--rail-bottom);"
+          data-index="1"
+        >
+          <img class="block h-full w-full object-cover" src="https://picsum.photos/seed/adilinden-seq-2/800/1180" alt="" width="800" height="1180" draggable="false">
+        </div>
+        <div
+          class="gallery-plate absolute overflow-hidden rounded-lg border border-stone-300/80 bg-stone-200 shadow-lg"
+          style="bottom: var(--rail-bottom);"
+          data-index="2"
+        >
+          <img class="block h-full w-full object-cover" src="https://picsum.photos/seed/adilinden-seq-3/800/1180" alt="" width="800" height="1180" draggable="false">
+        </div>
+        <div
+          class="gallery-plate absolute overflow-hidden rounded-lg border border-stone-300/80 bg-stone-200 shadow-lg"
+          style="bottom: var(--rail-bottom);"
+          data-index="3"
+        >
+          <img class="block h-full w-full object-cover" src="https://picsum.photos/seed/adilinden-seq-4/800/1180" alt="" width="800" height="1180" draggable="false">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="mx-auto max-w-3xl px-6 py-24 text-center text-sm text-stone-500">
+    Open via a local server if images are blocked (file://). Production site uses self-hosted images in <code class="rounded bg-stone-200 px-1">public/images/</code>.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.1/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.1/dist/ScrollTrigger.min.js"></script>
+  <script>
+    gsap.registerPlugin(ScrollTrigger);
+
+    const COUNT = 4;
+    const STEPS = COUNT - 1;
+
+    const wide = {
+      restW: 72,
+      restAspect: 0.68,
+      previewW: 22,
+      entryX: 26,
+      exitX: -28,
+      entryDrop: 88,
+      exitLift: 220,
+      stackPitch: 56,
+      entryTilt: 36,
+      exitTilt: -32,
+      scaleMin: 0.18,
+    };
+
+    const narrow = {
+      restW: 88,
+      restAspect: 0.62,
+      previewW: 32,
+      entryX: 32,
+      exitX: -34,
+      entryDrop: 72,
+      exitLift: 180,
+      stackPitch: 44,
+      entryTilt: 32,
+      exitTilt: -28,
+      scaleMin: 0.18,
+    };
+
+    function smooth(value) {
+      const t = Math.min(1, Math.max(0, value));
+      return t * t * (3 - 2 * t);
+    }
+    function mix(a, b, t) {
+      return a + (b - a) * t;
+    }
+    function lerpBody(from, to, t) {
+      const e = smooth(t);
+      return {
+        x: mix(from.x, to.x, e),
+        lift: mix(from.lift, to.lift, e),
+        w: mix(from.w, to.w, e),
+        aspect: mix(from.aspect, to.aspect, e),
+        rotateX: mix(from.rotateX, to.rotateX, e),
+      };
+    }
+    function anchors(geom) {
+      return {
+        focus: { x: 0, lift: 0, w: geom.restW, aspect: geom.restAspect, rotateX: 0 },
+        below: { x: geom.entryX, lift: -geom.entryDrop, w: geom.previewW, aspect: 1, rotateX: geom.entryTilt },
+        above: { x: geom.exitX, lift: geom.exitLift, w: geom.previewW * 0.88, aspect: geom.restAspect, rotateX: geom.exitTilt },
+        dock: { x: geom.entryX * 1.08, lift: -geom.entryDrop - geom.stackPitch, w: 0, aspect: 1, rotateX: geom.entryTilt * 1.1 },
+      };
+    }
+    function queueRamp(leaderDelta) {
+      return smooth(Math.max(0, Math.min(1, (0.68 - leaderDelta) / 0.32)));
+    }
+    function stepBody(delta, geom, leaderDelta) {
+      const { focus, below, above, dock } = anchors(geom);
+      if (delta <= -1.08) return { ...above, w: mix(above.w, 0, smooth(Math.min(1, -delta - 1))) };
+      if (delta < 0) return lerpBody(focus, above, smooth(-delta));
+      if (delta < 1) return lerpBody(below, focus, smooth(1 - delta));
+      if (delta <= 2) {
+        const ramp = queueRamp(leaderDelta) * smooth(2 - delta);
+        return lerpBody(dock, below, ramp);
+      }
+      return dock;
+    }
+    function stepOpacity(delta, body) {
+      if (body.w <= 0.05) return 0;
+      if (delta < -1) return 0;
+      if (delta < 0) return smooth(1 + delta);
+      if (delta <= 1) return mix(0.28, 1, smooth(1 - delta));
+      if (delta <= 2) return mix(0, 0.28, smooth(2 - delta));
+      return 0;
+    }
+    function focusBell(delta) {
+      return smooth(1 - Math.min(1, Math.abs(delta)));
+    }
+    function poseAt(index, progress, geom) {
+      const focus = Math.min(STEPS, Math.max(0, progress * STEPS));
+      const delta = index - focus;
+      const leaderDelta = index > 0 ? index - 1 - focus : 1;
+      const body = stepBody(delta, geom, leaderDelta);
+      const bell = focusBell(delta);
+      return {
+        ...body,
+        opacity: stepOpacity(delta, body),
+        scale: mix(geom.scaleMin, 1, bell),
+        z: Math.round(40 - Math.abs(delta) * 12),
+      };
+    }
+    function applyPose(el, pose) {
+      gsap.set(el, {
+        left: `${50 + pose.x}%`,
+        xPercent: -50,
+        y: -pose.lift,
+        width: `min(${pose.w}vw, 50rem, calc(78svh * ${pose.aspect}))`,
+        aspectRatio: pose.aspect,
+        opacity: pose.opacity,
+        zIndex: pose.z,
+        rotationX: pose.rotateX,
+        scale: pose.scale,
+        transformOrigin: "50% 50%",
+        force3D: true,
+      });
+    }
+
+    const track = document.querySelector(".gallery-track");
+    const plates = [...document.querySelectorAll(".gallery-plate")];
+    const layoutMq = window.matchMedia("(max-width: 991px)");
+    const reduceMq = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const getGeom = () => (layoutMq.matches ? narrow : wide);
+
+    if (!reduceMq.matches) {
+      const paint = (progress) => {
+        const geom = getGeom();
+        plates.forEach((el, index) => applyPose(el, poseAt(index, progress, geom)));
+      };
+
+      ScrollTrigger.create({
+        trigger: track,
+        start: "start start",
+        end: "end end",
+        scrub: true,
+        onUpdate: (self) => paint(self.progress),
+      });
+
+      layoutMq.addEventListener("change", () => ScrollTrigger.refresh());
+      paint(0);
+    }
+  </script>
+</body>
+</html>

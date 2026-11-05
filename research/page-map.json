@@ -1,0 +1,9 @@
+{
+  "pages": [
+    { "name": "home", "peer": "home", "build": "/" },
+    { "name": "about", "peer": "about", "build": "/about" },
+    { "name": "services", "peer": "services", "build": "/services" },
+    { "name": "projects", "peer": "projects", "build": "/projects" },
+    { "name": "contact", "peer": "contact", "build": "/contact" }
+  ]
+}

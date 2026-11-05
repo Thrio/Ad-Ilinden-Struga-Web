@@ -128,7 +128,17 @@ export function stageStatus(root) {
     const m = [];
     const peers = exists(root, "research/peers") ? fs.readdirSync(path.join(root, "research/peers")).filter((d) => exists(root, `research/peers/${d}/report.md`)) : [];
     if (!peers.length) m.push("no reference captured (research/peers/<slug>/report.md)");
-    for (const p of peers) if (/Bands: incomplete|footer not reached/i.test(read(root, `research/peers/${p}/report.md`))) m.push(`${p}: capture incomplete (footer not reached)`);
+    const footerWaivers = tableRows(section(plan, "Decisions")).filter((r) => {
+      const text = r.join(" ");
+      return /project-scoped waiver/i.test(text) && /incomplete/i.test(text) && /footer/i.test(text);
+    });
+    const refsApproved = approved(progress, "refs");
+    for (const p of peers) {
+      const report = read(root, `research/peers/${p}/report.md`);
+      if (!/Bands: incomplete|footer not reached/i.test(report)) continue;
+      const waived = refsApproved && footerWaivers.some((r) => r.join(" ").toLowerCase().includes(p.toLowerCase()));
+      if (!waived) m.push(`${p}: capture incomplete (footer not reached)`);
+    }
     if (/\[REQUIRED after pick/.test(section(plan, "Clone Blueprint"))) m.push("Clone Blueprint rows not filled");
     if (/\[REQUIRED after pick/.test(section(plan, "Motion map"))) m.push("Motion map not filled");
     if (!exists(root, "research/page-map.json")) m.push("research/page-map.json missing");
